@@ -1,0 +1,2 @@
+obj\Release\net8.0\Protos\Organization/UserService.cs \
+obj\Release\net8.0\Protos\Organization/UserServiceGrpc.cs: Protos/Organization/user_service.proto

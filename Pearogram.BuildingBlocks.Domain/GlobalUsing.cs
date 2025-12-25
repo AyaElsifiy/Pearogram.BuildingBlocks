@@ -1,0 +1,1 @@
+﻿global using Pearogram.BuildingBlocks.Domain.Validator;

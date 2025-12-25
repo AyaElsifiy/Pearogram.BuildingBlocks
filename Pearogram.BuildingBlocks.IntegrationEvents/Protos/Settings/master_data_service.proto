@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Pearogram.BuildingBlocks.IntegrationEvents.Protos.Settings";
+package masterdata;
+
+service GRPCMasterDataService {
+  rpc GetMasterDataName (GrpcRequest) returns (GrpcResponse);
+}
+message GrpcRequest {
+	string message = 1;  // JSON serialized request payload
+}
+message GrpcResponse {
+	string message = 1; // JSON serialized response payload
+}
+

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "Pearogram.BuildingBlocks.IntegrationEvents.Protos.Attachment";
+package attachments;
+
+service EntityImageService {
+  rpc GetEntityImagePath (GrpcRequest) returns (GrpcResponse);
+  rpc GetFilePath (GrpcRequest) returns (GrpcResponse);
+  rpc SaveEntityImagePath (GrpcRequest) returns (GrpcResponse);
+  rpc GetMaterialInfo (GrpcRequest) returns (GrpcResponse);
+}
+message GrpcRequest {
+	string message = 1;  // JSON serialized request payload
+}
+message GrpcResponse {
+	string message = 1; // JSON serialized response payload
+}

@@ -1,0 +1,1647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcademicYearIdEducationTrackIdOrGradeIdIsInvalid" xml:space="preserve">
+    <value>AcademicYearId, EducationTrackId, or GradeId is invalid</value>
+  </data>
+  <data name="AcademicYearIdIsRequired" xml:space="preserve">
+    <value>Academic Year Id Is Required</value>
+  </data>
+  <data name="AcademicYearIsRequired" xml:space="preserve">
+    <value>Academic Year Is Required</value>
+  </data>
+  <data name="AcademicYearNotFound" xml:space="preserve">
+    <value>Academic year not found.</value>
+  </data>
+  <data name="ActionNameUpdatedSuccessfully" xml:space="preserve">
+    <value>Action name updated successfully</value>
+  </data>
+  <data name="AddedSuccessfully" xml:space="preserve">
+    <value>Added Successfully</value>
+  </data>
+  <data name="AdmissionApplicationNotFound" xml:space="preserve">
+    <value>Admission application not found.</value>
+  </data>
+  <data name="AlreadyActivated" xml:space="preserve">
+    <value>Already activated.</value>
+  </data>
+  <data name="AlreadyExistInThisTeam" xml:space="preserve">
+    <value>{0} already exists in this team</value>
+  </data>
+  <data name="AlreadyExists" xml:space="preserve">
+    <value>Already Exists</value>
+  </data>
+  <data name="An error occurred:" xml:space="preserve">
+    <value>An error occurred</value>
+  </data>
+  <data name="AnApplicationWithTheSameNationalIdAlreadyExists" xml:space="preserve">
+    <value>An Application With The Same NationalId Already Exists</value>
+  </data>
+  <data name="AnErrorOccured" xml:space="preserve">
+    <value>An error occurred</value>
+  </data>
+  <data name="AnErrorOccuredWhileCreateTask" xml:space="preserve">
+    <value>An error occurred while creating the task</value>
+  </data>
+  <data name="AnErrorOccuredWhileFetchingData" xml:space="preserve">
+    <value>An error occured while fetching data</value>
+  </data>
+  <data name="AnErrorOccuredWhileGetProjectByIdAsync" xml:space="preserve">
+    <value>An error occurred while getting project by ID</value>
+  </data>
+  <data name="AnErrorOccuredWhileGetUserById" xml:space="preserve">
+    <value>An error occurred while getting user by ID</value>
+  </data>
+  <data name="AnErrorOccurred" xml:space="preserve">
+    <value>An Error Occurred</value>
+  </data>
+  <data name="AnErrorOccurredWhileChangingThePassword" xml:space="preserve">
+    <value>An error occurred while changing the password</value>
+  </data>
+  <data name="AnErrorOccurredWhileProcessingYourRequest" xml:space="preserve">
+    <value>An error occurred while processing your request</value>
+  </data>
+  <data name="AnErrorOccurredWhileSendOTP" xml:space="preserve">
+    <value>An error occurred while send OTP</value>
+  </data>
+  <data name="ApplicationAlreadyApproved" xml:space="preserve">
+    <value>Application Already Approved</value>
+  </data>
+  <data name="ApplicationAlreadyRefused" xml:space="preserve">
+    <value>Application already refused.</value>
+  </data>
+  <data name="ApplicationApproved" xml:space="preserve">
+    <value>Application Approved</value>
+  </data>
+  <data name="ApplicationCannotBeApproved" xml:space="preserve">
+    <value>Application Cannot Be Approved</value>
+  </data>
+  <data name="ApplicationCreatedSuccessfully" xml:space="preserve">
+    <value>Application Created Successfully</value>
+  </data>
+  <data name="ApplicationDuplicatedSuccessfully" xml:space="preserve">
+    <value>Application duplicated successfully.</value>
+  </data>
+  <data name="ApplicationIdsIsRequired" xml:space="preserve">
+    <value>ApplicationIds is required.</value>
+  </data>
+  <data name="ApplicationNotFound" xml:space="preserve">
+    <value>Application Not Found</value>
+  </data>
+  <data name="Applications assigned successfully" xml:space="preserve">
+    <value>Applications assigned successfully</value>
+  </data>
+  <data name="ApplicationStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>Application status updated successfully.</value>
+  </data>
+  <data name="ApprovedAndEnrolledSuccessfully" xml:space="preserve">
+    <value>Approved and enrolled successfully.</value>
+  </data>
+  <data name="ArchiveSuccessfully" xml:space="preserve">
+    <value>Archive Successfully</value>
+  </data>
+  <data name="AssessmentSlotConflictReloadAndRetry" xml:space="preserve">
+    <value>Conflict: the assessment slot was modified by another request. Please reload and retry</value>
+  </data>
+  <data name="AssessmentSlotDeletedSuccessfully" xml:space="preserve">
+    <value>Assessment slot deleted successfully.</value>
+  </data>
+  <data name="AssessmentSlotIdIsRequired" xml:space="preserve">
+    <value>AssessmentSlotId is required</value>
+  </data>
+  <data name="AssessmentSlotNotFound" xml:space="preserve">
+    <value>Assessment slot not found.</value>
+  </data>
+  <data name="AssignedSuccessfully" xml:space="preserve">
+    <value>Assigned Successfully</value>
+  </data>
+  <data name="AtLeastOneCoordinatorIsRequired" xml:space="preserve">
+    <value>At least one coordinator is required.</value>
+  </data>
+  <data name="AtLeastOneCoordinatorMustBeAssigned" xml:space="preserve">
+    <value>At least one coordinator must be assigned.</value>
+  </data>
+  <data name="AtLeastOneParentIsRequired" xml:space="preserve">
+    <value>At least one parent is required</value>
+  </data>
+  <data name="AtLeastOneParentMustBeMarkedAsEmergencyContact" xml:space="preserve">
+    <value>At least one parent must be marked as Emergency Contact.</value>
+  </data>
+  <data name="AtLeastOneParentMustBeMarkedAsGuardian" xml:space="preserve">
+    <value>At least one parent must be marked as Guardian.</value>
+  </data>
+  <data name="AtLeastOneStudentMustBeAssigned" xml:space="preserve">
+    <value>At least one student must be assigned</value>
+  </data>
+  <data name="AtLeastOneSubjectIsRequired" xml:space="preserve">
+    <value>At least one subject is required</value>
+  </data>
+  <data name="BodyCannotExceed2000characters" xml:space="preserve">
+    <value>Body Cannot Exceed 2000 characters</value>
+  </data>
+  <data name="BodyIsRequired" xml:space="preserve">
+    <value>Body Is Required</value>
+  </data>
+  <data name="BusinessFieldCannotExceed100Characters" xml:space="preserve">
+    <value>Business field cannot exceed 100 characters</value>
+  </data>
+  <data name="BusinessFieldIsRequired" xml:space="preserve">
+    <value>Business field is required.</value>
+  </data>
+  <data name="Can'tChangeThisItemRank" xml:space="preserve">
+    <value>Can't Change This Item Rank</value>
+  </data>
+  <data name="Can'tConvertModuleName" xml:space="preserve">
+    <value>Can't Convert Module Name</value>
+  </data>
+  <data name="Can'tDeleteThisItem" xml:space="preserve">
+    <value>Can't Delete This Item</value>
+  </data>
+  <data name="Can'tDeleteThisSystematicItem" xml:space="preserve">
+    <value>Can't delete this systematic item</value>
+  </data>
+  <data name="Can'tUpdateThisCritialNotification" xml:space="preserve">
+    <value>Can't Update This Critial Notification</value>
+  </data>
+  <data name="CannotAddGradingSubjectSystemWhenEvaluationMethodIsNotGradingSystemBased" xml:space="preserve">
+    <value>Cannot add grading subject system when EvaluationMethod is not GradingSystemBased.</value>
+  </data>
+  <data name="CannotaddmoreclassesMaximumallowedclasses" xml:space="preserve">
+    <value>Cannot add more classes  Maximum allowed classes</value>
+  </data>
+  <data name="CannotDeleteEntityWithRelatedData" xml:space="preserve">
+    <value>This item cannot be deleted because it has related data.</value>
+  </data>
+  <data name="CannotDeleteThisSystematicItem" xml:space="preserve">
+    <value>Cannot Delete This Systematic Item</value>
+  </data>
+  <data name="CantAddStudentWithoutParents" xml:space="preserve">
+    <value>Can't Add Student Without Parents</value>
+  </data>
+  <data name="CantDeleteActiveYear" xml:space="preserve">
+    <value>لا يمكنك حذف سنه مفعله </value>
+  </data>
+  <data name="CantUpdateThisProjectbecauseIsArchive" xml:space="preserve">
+    <value>This project cannot be updated because it is archived</value>
+  </data>
+  <data name="CapacityMustBeGreaterThan0" xml:space="preserve">
+    <value>Capacity must be greater than 0.</value>
+  </data>
+  <data name="ChangePasswordSuccessfully" xml:space="preserve">
+    <value>Change Password Successfully</value>
+  </data>
+  <data name="ChannelCannotExceed50characters" xml:space="preserve">
+    <value>Channel Cannot Exceed 50 characters</value>
+  </data>
+  <data name="ChannelIsRequired" xml:space="preserve">
+    <value>Channel Is Required</value>
+  </data>
+  <data name="CityIdIsRequired" xml:space="preserve">
+    <value>CityId is required.</value>
+  </data>
+  <data name="ClassesContainInvalidIds" xml:space="preserve">
+    <value>Classes contain invalid IDs.</value>
+  </data>
+  <data name="ClassesMustBeUnique" xml:space="preserve">
+    <value>Classes must be unique.</value>
+  </data>
+  <data name="ClassIdMustBeNonEmptyGuidIfProvided" xml:space="preserve">
+    <value>ClassId, if provided, must be a non-empty GUID.</value>
+  </data>
+  <data name="ClassIdsContainEmptyGuid" xml:space="preserve">
+    <value>ClassIds contains empty Guid.</value>
+  </data>
+  <data name="ClassNotFound" xml:space="preserve">
+    <value>Class Not Found</value>
+  </data>
+  <data name="CleanupJobStarted" xml:space="preserve">
+    <value>Cleanup job started for old deleted records </value>
+  </data>
+  <data name="Client deleted successfully" xml:space="preserve">
+    <value>Client deleted successfully</value>
+  </data>
+  <data name="ClientArchiveStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>Client Archive Status Updated Successfully</value>
+  </data>
+  <data name="ClientNotFound" xml:space="preserve">
+    <value>Client Not Found</value>
+  </data>
+  <data name="ColorIsRequired" xml:space="preserve">
+    <value>Color Is Required</value>
+  </data>
+  <data name="ColorMustNotExceed20Characters" xml:space="preserve">
+    <value>Color Must Not Exceed 20 Characters</value>
+  </data>
+  <data name="CommentDeletedSuccessfully" xml:space="preserve">
+    <value>Comment deleted successfully</value>
+  </data>
+  <data name="CommentNotFound" xml:space="preserve">
+    <value>Comment not found</value>
+  </data>
+  <data name="CommentsRetrievedSuccessfully" xml:space="preserve">
+    <value>Comments retrieved successfully</value>
+  </data>
+  <data name="ConflictDetectedDateRangeOverlapsWithAnExistingRecord" xml:space="preserve">
+    <value>Conflict detected: Date range overlaps with an existing record.</value>
+  </data>
+  <data name="CoordinatorNotFoundInThisGroup" xml:space="preserve">
+    <value>Coordinator not found in this group.</value>
+  </data>
+  <data name="CoordinatorRemovedSuccessfully" xml:space="preserve">
+    <value>Coordinator removed successfully.</value>
+  </data>
+  <data name="CoordinatorsAssignedSuccessfully" xml:space="preserve">
+    <value>Coordinators assigned successfully.</value>
+  </data>
+  <data name="CoordinatorsContainDuplicates" xml:space="preserve">
+    <value>Coordinators contain duplicates.</value>
+  </data>
+  <data name="CoordinatorsListIsRequired" xml:space="preserve">
+    <value>Coordinators list is required.</value>
+  </data>
+  <data name="CreateFailed" xml:space="preserve">
+    <value>Create Failed</value>
+  </data>
+  <data name="DateCannotBeInThePast" xml:space="preserve">
+    <value>Date cannot be in the past.</value>
+  </data>
+  <data name="DateOfBirthCannotBeInTheFuture" xml:space="preserve">
+    <value>Date of birth cannot be in the future.</value>
+  </data>
+  <data name="DeceasedStatusMustBeSpecified" xml:space="preserve">
+    <value>Deceased status must be specified.</value>
+  </data>
+  <data name="DeletedSuccessfully" xml:space="preserve">
+    <value>Deleted Successfully</value>
+  </data>
+  <data name="DepartmentIsRequired" xml:space="preserve">
+    <value>Department is required.</value>
+  </data>
+  <data name="DependencyTaskUpdatedSuccessfully" xml:space="preserve">
+    <value>Dependency task updated successfully</value>
+  </data>
+  <data name="DescriptionCannotExceed1500characters" xml:space="preserve">
+    <value>Name Cannot Exceed 1500 characters</value>
+  </data>
+  <data name="DescriptionCannotExceed255characters" xml:space="preserve">
+    <value>Description Cannot Exceed 255 characters</value>
+  </data>
+  <data name="DescriptionCannotExceed3000characters" xml:space="preserve">
+    <value>Description Cannot Exceed 3000 characters</value>
+  </data>
+  <data name="DescriptionCannotExceed500Characters" xml:space="preserve">
+    <value>Description Cannot Exceed 500 Characters</value>
+  </data>
+  <data name="DescriptionMustNotExceed2000Characters" xml:space="preserve">
+    <value>Description must not exceed 2000 characters.</value>
+  </data>
+  <data name="DuplicateCoordinatorIdsAreNotAllowed" xml:space="preserve">
+    <value>Duplicate coordinator IDs are not allowed.</value>
+  </data>
+  <data name="DuplicateParentTypeNotAllowed" xml:space="preserve">
+    <value>Duplicate ParentType is not allowed</value>
+  </data>
+  <data name="DuplicateStudentIdsAreNotAllowed" xml:space="preserve">
+    <value>Duplicate student IDs are not allowed</value>
+  </data>
+  <data name="EachApplicationMustIncludeAFather" xml:space="preserve">
+    <value>Each application must include a father.</value>
+  </data>
+  <data name="EachApplicationMustIncludeAMother" xml:space="preserve">
+    <value>Each application must include a mother.</value>
+  </data>
+  <data name="EachApplicationMustIncludeOneRelative" xml:space="preserve">
+    <value>Each application must include at least one relative.</value>
+  </data>
+  <data name="EachStudentMustHaveAtLeastOneRelativeAssigned" xml:space="preserve">
+    <value>Each student must have at least one relative assigned.</value>
+  </data>
+  <data name="EducationTrackIdMustBeNonEmptyGuid" xml:space="preserve">
+    <value>EducationTrackId, if provided, must be a non-empty GUID.</value>
+  </data>
+  <data name="EducationTrackNotFound" xml:space="preserve">
+    <value>Education track not found</value>
+  </data>
+  <data name="EducationTracksIdsIsRequired" xml:space="preserve">
+    <value>Education Tracks Ids Is Required</value>
+  </data>
+  <data name="EducationTracksIdsRequired" xml:space="preserve">
+    <value>Education Tracks Ids Required</value>
+  </data>
+  <data name="EducationTracksNotFound" xml:space="preserve">
+    <value>Education Tracks Not Found</value>
+  </data>
+  <data name="EmailAlreadyExists" xml:space="preserve">
+    <value>Email Already Exists</value>
+  </data>
+  <data name="EmailCannotExceed00Characters" xml:space="preserve">
+    <value>Email cannot exceed 100 characters.</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>Email must be valid.</value>
+  </data>
+  <data name="EmailInvalidFormat" xml:space="preserve">
+    <value>Email must be a valid email address.</value>
+  </data>
+  <data name="EmailIsAlreadyExist" xml:space="preserve">
+    <value>Email Already Exists</value>
+  </data>
+  <data name="EmailIsRequired" xml:space="preserve">
+    <value>Email is required.</value>
+  </data>
+  <data name="EmailNotFound" xml:space="preserve">
+    <value>Email Not Found</value>
+  </data>
+  <data name="EmailOrPhoneRequiredForAutoAccount" xml:space="preserve">
+    <value>Email or phone number is required when the student is enrolled in a grade that allows automatic account creation.</value>
+  </data>
+  <data name="EndDateIsRequired" xml:space="preserve">
+    <value>End Date Is Required</value>
+  </data>
+  <data name="EndTimeIsRequired" xml:space="preserve">
+    <value>End time is required.</value>
+  </data>
+  <data name="EndTimeMustBeAfterStartTime" xml:space="preserve">
+    <value>End time must be after start time.</value>
+  </data>
+  <data name="EnrollmentTypeIsRequired" xml:space="preserve">
+    <value>Enrollment Type Is Required</value>
+  </data>
+  <data name="entityIdIsRequired" xml:space="preserve">
+    <value>entity Id Is Required</value>
+  </data>
+  <data name="entityTypeIsRequired" xml:space="preserve">
+    <value>entity Type Is Required</value>
+  </data>
+  <data name="ErorrWhileSavingTheTaskImage" xml:space="preserve">
+    <value>Error while saving the task image</value>
+  </data>
+  <data name="Error occurred while deleting Client" xml:space="preserve">
+    <value>Error occurred while deleting Client</value>
+  </data>
+  <data name="ErrorInChangePassword" xml:space="preserve">
+    <value>Error In Change Password</value>
+  </data>
+  <data name="ErrorInDelete" xml:space="preserve">
+    <value>Error In Delete</value>
+  </data>
+  <data name="ErrorInDeleteAttachment" xml:space="preserve">
+    <value>Error in delete Attachment.</value>
+  </data>
+  <data name="ErrorInRestore" xml:space="preserve">
+    <value>Error during restoration </value>
+  </data>
+  <data name="ErrorInSave" xml:space="preserve">
+    <value>ErrorInSave</value>
+  </data>
+  <data name="ErrorInSaveDocument" xml:space="preserve">
+    <value>Error In Save Document</value>
+  </data>
+  <data name="ErrorInUpdate" xml:space="preserve">
+    <value>Error In Update</value>
+  </data>
+  <data name="ErrorInUpdated" xml:space="preserve">
+    <value>Error in updated</value>
+  </data>
+  <data name="ErrorOccurredWhileDeletingUser" xml:space="preserve">
+    <value>Error occurred while deleting user</value>
+  </data>
+  <data name="ErrorWhileApprovedApplication" xml:space="preserve">
+    <value>Error while approving application.</value>
+  </data>
+  <data name="ErrorWhileCloneTask" xml:space="preserve">
+    <value>Error while clone task</value>
+  </data>
+  <data name="ErrorWhileCreatingUser" xml:space="preserve">
+    <value>Error while creating users</value>
+  </data>
+  <data name="ErrorWhileDeleteTask" xml:space="preserve">
+    <value>Error while deleting the task</value>
+  </data>
+  <data name="ErrorWhileDeletingMenus" xml:space="preserve">
+    <value>Error while deleting menus</value>
+  </data>
+  <data name="ErrorWhileFetchingGroupTasksByStatus" xml:space="preserve">
+    <value>Error while fetching grouped tasks by status</value>
+  </data>
+  <data name="ErrorWhileFetchingMembersDDL" xml:space="preserve">
+    <value>Error while fetching members</value>
+  </data>
+  <data name="ErrorWhileFetchingProjectDDL" xml:space="preserve">
+    <value>Error loading project list </value>
+  </data>
+  <data name="ErrorWhileFetchingProjects" xml:space="preserve">
+    <value>Error loading projects</value>
+  </data>
+  <data name="ErrorWhileFetchingTeams" xml:space="preserve">
+    <value>Error loading teams </value>
+  </data>
+  <data name="ErrorWhileFetchingTeamsDDL" xml:space="preserve">
+    <value>Error while fetching teams</value>
+  </data>
+  <data name="ErrorWhileFetchingWorkLogs" xml:space="preserve">
+    <value>Error while fetching workLogs</value>
+  </data>
+  <data name="ErrorWhileGetTaskByID" xml:space="preserve">
+    <value>Error while getting task by ID</value>
+  </data>
+  <data name="ErrorWhileGettingProject" xml:space="preserve">
+    <value>Error loading project data </value>
+  </data>
+  <data name="ErrorWhileUpdateTask" xml:space="preserve">
+    <value>Error while updating the task</value>
+  </data>
+  <data name="ErrorWhileVerifyUser" xml:space="preserve">
+    <value>Error while verifying user</value>
+  </data>
+  <data name="EstimatedTimeChangedSuccessfully" xml:space="preserve">
+    <value>Estimated time changed successfully</value>
+  </data>
+  <data name="EstimatedTimeNotValid" xml:space="preserve">
+    <value>Estimated Time Not Valid</value>
+  </data>
+  <data name="EUserStatusChanged" xml:space="preserve">
+    <value>User status changed</value>
+  </data>
+  <data name="EvaluationMethodIsRequired" xml:space="preserve">
+    <value>Evaluation Method Is Required</value>
+  </data>
+  <data name="FailedToAssignStudentToClass" xml:space="preserve">
+    <value>Failed to assign student to class</value>
+  </data>
+  <data name="FailedToCreateGroup" xml:space="preserve">
+    <value>Failed to create group.</value>
+  </data>
+  <data name="FailedToDeleteParent" xml:space="preserve">
+    <value>Failed to delete parent</value>
+  </data>
+  <data name="FailedToSaveImage" xml:space="preserve">
+    <value>Failed to save image.</value>
+  </data>
+  <data name="FailedToSaveStudentImage" xml:space="preserve">
+    <value>Failed to save student image for student.</value>
+  </data>
+  <data name="FailedToUpdateGroup" xml:space="preserve">
+    <value>Failed To Update Group</value>
+  </data>
+  <data name="File removed successfully" xml:space="preserve">
+    <value>File removed successfully</value>
+  </data>
+  <data name="File uploaded successfully" xml:space="preserve">
+    <value>File uploaded successfully</value>
+  </data>
+  <data name="FileNameAlreadyExists" xml:space="preserve">
+    <value>File Name Already Exists</value>
+  </data>
+  <data name="FileNameCannotExceed150characters" xml:space="preserve">
+    <value>File Name Cannot Exceed 150 characters</value>
+  </data>
+  <data name="FileNameIsRequired" xml:space="preserve">
+    <value>File Name Is Required</value>
+  </data>
+  <data name="FileNameIsRequiredWhenImageBase64Given" xml:space="preserve">
+    <value>FileName is required when ImageBase64 is provided.</value>
+  </data>
+  <data name="FirstLanguageIdIsRequired" xml:space="preserve">
+    <value>First Language Id Is Required</value>
+  </data>
+  <data name="FromAgeIsRequired" xml:space="preserve">
+    <value>From Age Is Required</value>
+  </data>
+  <data name="FullNameCannotBeWhitespace" xml:space="preserve">
+    <value>Full name cannot be whitespace.</value>
+  </data>
+  <data name="FullNameIsRequired" xml:space="preserve">
+    <value>Full name is required.</value>
+  </data>
+  <data name="GenderIsInvalidOrNotSpecified" xml:space="preserve">
+    <value>Gender is invalid or not specified</value>
+  </data>
+  <data name="GradeArchiveSuccessfully" xml:space="preserve">
+    <value>Grade archived successfully.</value>
+  </data>
+  <data name="GradeIdIsRequired" xml:space="preserve">
+    <value>GradeId is required.</value>
+  </data>
+  <data name="GradeIdRequired" xml:space="preserve">
+    <value>Grade Id Required</value>
+  </data>
+  <data name="GradeIdsRequired" xml:space="preserve">
+    <value>Grade Id Required</value>
+  </data>
+  <data name="GradeNotFound" xml:space="preserve">
+    <value>Grade not found</value>
+  </data>
+  <data name="GradeNotFoundEnterValidGrade" xml:space="preserve">
+    <value>Grade not found, enter a valid grade.</value>
+  </data>
+  <data name="GradesConfigsIsRequired" xml:space="preserve">
+    <value>Grades Configs Is Required</value>
+  </data>
+  <data name="GradingMethodIsRequired" xml:space="preserve">
+    <value>Grading Method Is Required</value>
+  </data>
+  <data name="GroupCreatedSuccessfully" xml:space="preserve">
+    <value>Group created successfully.</value>
+  </data>
+  <data name="GroupNameAlreadyExists" xml:space="preserve">
+    <value>Group Name Already Exists</value>
+  </data>
+  <data name="GroupNameIsRequired" xml:space="preserve">
+    <value>Group name is required.</value>
+  </data>
+  <data name="GroupNameMustNotExceed200Characters" xml:space="preserve">
+    <value>Group name must not exceed 200 characters.</value>
+  </data>
+  <data name="GroupNotFound" xml:space="preserve">
+    <value>Group not found</value>
+  </data>
+  <data name="GroupWithTheSameNameAlreadyExists" xml:space="preserve">
+    <value>Group with the same name already exists</value>
+  </data>
+  <data name="GuardianMustHavePickupAuthorization" xml:space="preserve">
+    <value>Guardian must have pickup authorization.</value>
+  </data>
+  <data name="GuardianStatusMustBeSpecified" xml:space="preserve">
+    <value>Guardian status must be specified.</value>
+  </data>
+  <data name="HomeAddressMaxLength" xml:space="preserve">
+    <value>Home address cannot exceed 300 characters.</value>
+  </data>
+  <data name="HomeroomTeacherIdIsRequired" xml:space="preserve">
+    <value>Homeroom Teacher Id  Is Required</value>
+  </data>
+  <data name="IconCannotExceed100Characters" xml:space="preserve">
+    <value>Icon Cannot Exceed 100 Characters</value>
+  </data>
+  <data name="IconIsRequired" xml:space="preserve">
+    <value>Icon Is Required</value>
+  </data>
+  <data name="Id is required." xml:space="preserve">
+    <value>Id is required.</value>
+  </data>
+  <data name="IdIsRequired" xml:space="preserve">
+    <value>Id Is Required</value>
+  </data>
+  <data name="InvalidChannelType" xml:space="preserve">
+    <value>Invalid Channel Type</value>
+  </data>
+  <data name="InvalidClassId" xml:space="preserve">
+    <value>ClassId is invalid</value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>Invalid email address.</value>
+  </data>
+  <data name="InvalidEmailOrPassword" xml:space="preserve">
+    <value>Invalid Email Or Password</value>
+  </data>
+  <data name="InvalidGenderValue" xml:space="preserve">
+    <value>Invalid gender value.</value>
+  </data>
+  <data name="InvalidIdFormat" xml:space="preserve">
+    <value>Invalid ID format</value>
+  </data>
+  <data name="InvalidInput" xml:space="preserve">
+    <value>InvalidI nput</value>
+  </data>
+  <data name="InvalidLanguageCode" xml:space="preserve">
+    <value>Invalid Language Code</value>
+  </data>
+  <data name="InvalidModuleName" xml:space="preserve">
+    <value>Invalid Module Name</value>
+  </data>
+  <data name="InvalidOrExpiredOTP" xml:space="preserve">
+    <value>Invalid Or Expired OTP</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>Invalid password</value>
+  </data>
+  <data name="InvalidReligionValue" xml:space="preserve">
+    <value>Invalid religion value.</value>
+  </data>
+  <data name="InvalidRequest" xml:space="preserve">
+    <value>Invalid request</value>
+  </data>
+  <data name="InvalidStatusFormat" xml:space="preserve">
+    <value>Invalid status format</value>
+  </data>
+  <data name="InvalidTaskId" xml:space="preserve">
+    <value>Invalid task id</value>
+  </data>
+  <data name="InvalidTaskStatus" xml:space="preserve">
+    <value> Invalid task status</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Invalid token</value>
+  </data>
+  <data name="InvalidTokenFormat" xml:space="preserve">
+    <value>Invalid token format</value>
+  </data>
+  <data name="InvalidUser" xml:space="preserve">
+    <value>Invalid User</value>
+  </data>
+  <data name="InvalidUserData" xml:space="preserve">
+    <value>Invalid User Data</value>
+  </data>
+  <data name="InvalidUserOldPassword" xml:space="preserve">
+    <value>Invalid User Old Password</value>
+  </data>
+  <data name="IsArchiveIsRequired" xml:space="preserve">
+    <value>IsArchive Required</value>
+  </data>
+  <data name="JobTitleIsRequired" xml:space="preserve">
+    <value>Job Title is required.</value>
+  </data>
+  <data name="JobTitleMaxLength" xml:space="preserve">
+    <value>Job Title must not exceed 50 characters.</value>
+  </data>
+  <data name="LanguageCodeCannotExceed5characters" xml:space="preserve">
+    <value>Language Code Cannot Exceed 5 characters</value>
+  </data>
+  <data name="LanguageCodeIsRequired" xml:space="preserve">
+    <value>Language Code Is Required</value>
+  </data>
+  <data name="LessonsIsRequired" xml:space="preserve">
+    <value>Lessons Is Required</value>
+  </data>
+  <data name="LetterGradeIsRequired" xml:space="preserve">
+    <value>Letter Grade Is Required</value>
+  </data>
+  <data name="LetterGradeMustNotExceed5Characters" xml:space="preserve">
+    <value>Letter Grade Must Not Exceed 5 Characters</value>
+  </data>
+  <data name="LoginFirstMessage" xml:space="preserve">
+    <value>Please Login First </value>
+  </data>
+  <data name="LoginSuccessfully" xml:space="preserve">
+    <value>Login Successfully</value>
+  </data>
+  <data name="LogoutSuccessfully" xml:space="preserve">
+    <value>Logout Successfully</value>
+  </data>
+  <data name="MaxCapacityIsRequired" xml:space="preserve">
+    <value>Max Capacity Is Required</value>
+  </data>
+  <data name="MaxCapacityOfClassesIsRequired" xml:space="preserve">
+    <value>Max Capacity Of Classes Is Required</value>
+  </data>
+  <data name="MaxNumberOfClassesIsRequired" xml:space="preserve">
+    <value>Max Number Of Classes Is Required</value>
+  </data>
+  <data name="MaxPortalAccessParentsExceeded" xml:space="preserve">
+    <value>You cannot select more than {maxPortalAccessCount} parents with portal access</value>
+  </data>
+  <data name="MenusMainNotFound" xml:space="preserve">
+    <value>Menus main not found</value>
+  </data>
+  <data name="MenusNotFound" xml:space="preserve">
+    <value>Menus Not Found</value>
+  </data>
+  <data name="MinimumMaxCapacityValid" xml:space="preserve">
+    <value>The Max Capacity Of Classes Value must be greater than or equal to 1.</value>
+  </data>
+  <data name="MinmumMaxNumberOfClassesValid" xml:space="preserve">
+    <value>he Max Number Of Classes Value must be greater than or equal to 1.</value>
+  </data>
+  <data name="ModuleNameCannotExceed100characters" xml:space="preserve">
+    <value>Module Name Cannot Exceed 100 characters</value>
+  </data>
+  <data name="ModuleNameIsRequired" xml:space="preserve">
+    <value>Module Name Is Required</value>
+  </data>
+  <data name="Name cannot exceed 100 characters" xml:space="preserve">
+    <value>Name cannot exceed 100 characters</value>
+  </data>
+  <data name="NameAlreadyExists" xml:space="preserve">
+    <value>Name Already Exists</value>
+  </data>
+  <data name="NameCannotExceed100characters" xml:space="preserve">
+    <value>Name Cannot Exceed 100 characters</value>
+  </data>
+  <data name="NameCannotExceed150Characters" xml:space="preserve">
+    <value>Name Cannot Exceed 150 Characters</value>
+  </data>
+  <data name="NameIsRequired" xml:space="preserve">
+    <value>Name is required.</value>
+  </data>
+  <data name="NameMaxLength" xml:space="preserve">
+    <value>Name must not exceed 100 characters.</value>
+  </data>
+  <data name="NameMustContainFirstAndLastName" xml:space="preserve">
+    <value>Name must have contain first name and last name</value>
+  </data>
+  <data name="NationalIdIsRequired" xml:space="preserve">
+    <value>National ID is required.</value>
+  </data>
+  <data name="NationalIdLength" xml:space="preserve">
+    <value>National ID must be exactly 14 digits.</value>
+  </data>
+  <data name="NationalIdNumbersOnly" xml:space="preserve">
+    <value>National ID must contain only numbers.</value>
+  </data>
+  <data name="NationalityIdIsRequired" xml:space="preserve">
+    <value>NationalityId is required.</value>
+  </data>
+  <data name="NationalityIsRequired" xml:space="preserve">
+    <value>Nationality is required.</value>
+  </data>
+  <data name="NoCommentsForThisTask" xml:space="preserve">
+    <value>No comments for this task</value>
+  </data>
+  <data name="NoDefaultOperations" xml:space="preserve">
+    <value>No default operations</value>
+  </data>
+  <data name="NoLogsFoundForThisTask" xml:space="preserve">
+    <value>No logs found for this task</value>
+  </data>
+  <data name="NoMembersAvailableToAssign" xml:space="preserve">
+    <value>No Members Available To Assign</value>
+  </data>
+  <data name="NoNewCoordinatorsToAssign" xml:space="preserve">
+    <value>No new coordinators to assign.</value>
+  </data>
+  <data name="NoNewStudentsToAssign" xml:space="preserve">
+    <value>No new students to assign.</value>
+  </data>
+  <data name="NoOperationsForRole" xml:space="preserve">
+    <value>No operations for role</value>
+  </data>
+  <data name="NoParentsFoundForApplication" xml:space="preserve">
+    <value>No parents found for application</value>
+  </data>
+  <data name="NoParentsFoundForStudent" xml:space="preserve">
+    <value>No parents found for student </value>
+  </data>
+  <data name="NoPermission" xml:space="preserve">
+    <value>No Permission</value>
+  </data>
+  <data name="NoProjectsInThisTeam" xml:space="preserve">
+    <value>No projects assigned to this team </value>
+  </data>
+  <data name="NoRelativesFoundForApplication" xml:space="preserve">
+    <value>No relatives found for Application.</value>
+  </data>
+  <data name="NoRelativesFoundForStudent" xml:space="preserve">
+    <value>No relatives found for student</value>
+  </data>
+  <data name="NoTeamsFoundForThisProject" xml:space="preserve">
+    <value>No teams assigned to this project </value>
+  </data>
+  <data name="NotesMustBeLessOrEqual1000Chars" xml:space="preserve">
+    <value>Notes must be ≤ 1000 characters.</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Not Found</value>
+  </data>
+  <data name="NotificationsResetSuccessfully" xml:space="preserve">
+    <value>Notifications Reset Successfully</value>
+  </data>
+  <data name="NoUnassignedTeamsAvailable" xml:space="preserve">
+    <value>No available teams to assign </value>
+  </data>
+  <data name="NoUnassignedUsersAvailable" xml:space="preserve">
+    <value>No unassigned users available</value>
+  </data>
+  <data name="NoValidUsers" xml:space="preserve">
+    <value>No Valid Users</value>
+  </data>
+  <data name="OccupationIdIsRequired" xml:space="preserve">
+    <value>Occupation Id is required.</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>Operation failed</value>
+  </data>
+  <data name="ParentCommentNotFound" xml:space="preserve">
+    <value>Parent comment not found</value>
+  </data>
+  <data name="Parentdeletedsuccessfully" xml:space="preserve">
+    <value>Parent deleted successfully</value>
+  </data>
+  <data name="ParentEmailAlreadyExists" xml:space="preserve">
+    <value>Parent '{0}' email already exists in the Organization module.</value>
+  </data>
+  <data name="ParentNotFound" xml:space="preserve">
+    <value>Parent not found</value>
+  </data>
+  <data name="ParentPhoneAlreadyExists" xml:space="preserve">
+    <value>Parent '{0}' phone already exists in the Organization module.</value>
+  </data>
+  <data name="ParentsWithPortalAccess" xml:space="preserve">
+    <value>Parents with portal access</value>
+  </data>
+  <data name="ParentTaskUpdatedSuccessfully" xml:space="preserve">
+    <value>Parent task updated successfully</value>
+  </data>
+  <data name="ParentTypeIsInvalidOrNotSpecified" xml:space="preserve">
+    <value>ParentType is invalid or not specified.</value>
+  </data>
+  <data name="PassLimitCannotBeGreaterThanTotalDegree" xml:space="preserve">
+    <value>Pass limit cannot be greater than total degree.</value>
+  </data>
+  <data name="PassLimitIsRequired" xml:space="preserve">
+    <value>Pass Limit Is Required</value>
+  </data>
+  <data name="PasswordChangedSuccessfully" xml:space="preserve">
+    <value>Password Changed Successfully</value>
+  </data>
+  <data name="PasswordIsRequired" xml:space="preserve">
+    <value>Password is required.</value>
+  </data>
+  <data name="PasswordMust6CharactersLong" xml:space="preserve">
+    <value>Password must be at least 6 characters long.</value>
+  </data>
+  <data name="PasswordMustContainAtLeastOneDigit" xml:space="preserve">
+    <value>Password must contain at least one digit (0-9).</value>
+  </data>
+  <data name="PasswordMustContainAtLeastOneLowercaseLetter" xml:space="preserve">
+    <value>Password must contain at least one lowercase letter (a-z).</value>
+  </data>
+  <data name="PasswordMustContainAtLeastOneUppercaseLetter" xml:space="preserve">
+    <value>Password must contain at least one uppercase letter (A-Z).</value>
+  </data>
+  <data name="PerformanceLevelIsRequired" xml:space="preserve">
+    <value>Performance Level Is Required</value>
+  </data>
+  <data name="PerformanceLevelMustNotExceed100Characters" xml:space="preserve">
+    <value>Performance Level Must Not Exceed 100 Characters</value>
+  </data>
+  <data name="PermissionsResetSuccessfully" xml:space="preserve">
+    <value>Permissions reset successfully</value>
+  </data>
+  <data name="Phone cannot exceed 100 characters" xml:space="preserve">
+    <value>Phone cannot exceed 15 characters</value>
+  </data>
+  <data name="Phone is required" xml:space="preserve">
+    <value>Phone is required</value>
+  </data>
+  <data name="PhoneAlreadyExists" xml:space="preserve">
+    <value>Phone Already Exists</value>
+  </data>
+  <data name="PhoneCannotBeWhitespace" xml:space="preserve">
+    <value>Phone number cannot be whitespace.</value>
+  </data>
+  <data name="PhoneCannotExceed20Characters" xml:space="preserve">
+    <value>Phone number cannot exceed 20 characters.</value>
+  </data>
+  <data name="PhoneInvalidFormat" xml:space="preserve">
+    <value>Phone number must be a valid Egyptian phone number.</value>
+  </data>
+  <data name="PhoneIsAlreadyExist" xml:space="preserve">
+    <value>Phone Already Exists</value>
+  </data>
+  <data name="PhoneIsRequired" xml:space="preserve">
+    <value>Phone number is required.</value>
+  </data>
+  <data name="PhoneMaxLength" xml:space="preserve">
+    <value>Phone number cannot exceed 17 digits.</value>
+  </data>
+  <data name="Pleaseprovidevaliddataforeachlessonsection" xml:space="preserve">
+    <value>Please provide valid data for each lesson section.</value>
+  </data>
+  <data name="PrimaryLanguageIdIsRequired" xml:space="preserve">
+    <value>PrimaryLanguageId is required.</value>
+  </data>
+  <data name="ProjectArchiveStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>Project Archive Status Updated Successfully</value>
+  </data>
+  <data name="ProjectIsAlreadyArchive" xml:space="preserve">
+    <value>Project is already archived </value>
+  </data>
+  <data name="ProjectNotFound" xml:space="preserve">
+    <value>Project not found</value>
+  </data>
+  <data name="QualificationsAreRequired" xml:space="preserve">
+    <value>Qualifications are required.</value>
+  </data>
+  <data name="QualificationsMaxLength" xml:space="preserve">
+    <value>Qualifications cannot exceed 300 characters</value>
+  </data>
+  <data name="RankIsRequired" xml:space="preserve">
+    <value>Rank Is Required</value>
+  </data>
+  <data name="reached" xml:space="preserve">
+    <value>reached</value>
+  </data>
+  <data name="RegionIdIsRequired" xml:space="preserve">
+    <value>RegionId is required.</value>
+  </data>
+  <data name="RegionIsRequired" xml:space="preserve">
+    <value>Region is required.</value>
+  </data>
+  <data name="RelatedEventNotAllowed" xml:space="preserve">
+    <value>Related Event Not Allowed</value>
+  </data>
+  <data name="RelatedEventRequired" xml:space="preserve">
+    <value>Related Event Required</value>
+  </data>
+  <data name="RelatedToIsRequired" xml:space="preserve">
+    <value>Related Type Is Required</value>
+  </data>
+  <data name="ReligionIsInvalidOrNotSpecified" xml:space="preserve">
+    <value>Religion is invalid or not specified.</value>
+  </data>
+  <data name="ReportGenratedSuccessfully" xml:space="preserve">
+    <value>Report genrated successfully</value>
+  </data>
+  <data name="RequestDataInvalidOrMissing" xml:space="preserve">
+    <value>Request data is invalid or missing.</value>
+  </data>
+  <data name="ResetNotificationsError" xml:space="preserve">
+    <value>Reset Notifications Error</value>
+  </data>
+  <data name="ResetPermissionsError" xml:space="preserve">
+    <value>Reset permissions error</value>
+  </data>
+  <data name="RestoreSuccessfully" xml:space="preserve">
+    <value>Restored successfully </value>
+  </data>
+  <data name="RoleAlreadyExist" xml:space="preserve">
+    <value>Role already exist</value>
+  </data>
+  <data name="RoleIdIsRequired" xml:space="preserve">
+    <value>Role id is required</value>
+  </data>
+  <data name="RoleIsRequired" xml:space="preserve">
+    <value>Role is required.</value>
+  </data>
+  <data name="RoleNotFound" xml:space="preserve">
+    <value>Role not found</value>
+  </data>
+  <data name="SecondLanguageIdMustBeNonEmptyGuid" xml:space="preserve">
+    <value>SecondLanguageIdMustBeNonEmptyGuid</value>
+  </data>
+  <data name="SectionsIsRequired" xml:space="preserve">
+    <value>Sections Is Required</value>
+  </data>
+  <data name="SelectionLimitExceeded" xml:space="preserve">
+    <value>You cannot select more than </value>
+  </data>
+  <data name="SendOTPEmailSuccesfully" xml:space="preserve">
+    <value>Send OTP Email Succesfully</value>
+  </data>
+  <data name="SlotNameCannotBeWhitespace" xml:space="preserve">
+    <value>Slot name cannot be whitespace</value>
+  </data>
+  <data name="SlotNameIsRequired" xml:space="preserve">
+    <value>Slot name is required.</value>
+  </data>
+  <data name="SlotNameMustBeLessOrEqual255Chars" xml:space="preserve">
+    <value>Slot name must be ≤ 255 characters.</value>
+  </data>
+  <data name="SomeClassesNotFound" xml:space="preserve">
+    <value>Some Classes not found.</value>
+  </data>
+  <data name="SomeLessonsNotFound" xml:space="preserve">
+    <value>Some Lessons Not Found</value>
+  </data>
+  <data name="SomeSectionsNotFound" xml:space="preserve">
+    <value>Some Sections Not Found</value>
+  </data>
+  <data name="SomeSubjectGradeConfigsNotFound" xml:space="preserve">
+    <value>Some SubjectGradeConfigs not found.</value>
+  </data>
+  <data name="StartDateIsRequired" xml:space="preserve">
+    <value>Start Date Is Required</value>
+  </data>
+  <data name="StartDateMustBeBeforeEndDate" xml:space="preserve">
+    <value>StartDate must be before EndDate</value>
+  </data>
+  <data name="StartDateMustBeLessThanEndDate" xml:space="preserve">
+    <value>Start Date Must Be Less Than End Date</value>
+  </data>
+  <data name="StartTimeIsRequired" xml:space="preserve">
+    <value>Start time is required.</value>
+  </data>
+  <data name="StudentAcademicDataNotFound" xml:space="preserve">
+    <value>Student Academic Data Not Found</value>
+  </data>
+  <data name="StudentAlreadyExists" xml:space="preserve">
+    <value>Student with the same NationalId, Email, or Phone already exists</value>
+  </data>
+  <data name="StudentMustBeAtLeast" xml:space="preserve">
+    <value>Student must be at least</value>
+  </data>
+  <data name="StudentMustHaveFather" xml:space="preserve">
+    <value>Each student must have a father assigned.</value>
+  </data>
+  <data name="StudentMustHaveMother" xml:space="preserve">
+    <value>Each student must have a mother assigned.</value>
+  </data>
+  <data name="StudentNotFound" xml:space="preserve">
+    <value>Student not found</value>
+  </data>
+  <data name="StudentNotFoundInTheGroup" xml:space="preserve">
+    <value>Student not found in the group.</value>
+  </data>
+  <data name="StudentRemovedFromTheGroupSuccessfully" xml:space="preserve">
+    <value>Student removed from the group successfully.</value>
+  </data>
+  <data name="StudentsAssignedSuccessfully" xml:space="preserve">
+    <value>Students assigned successfully.</value>
+  </data>
+  <data name="StudentsListIsRequired" xml:space="preserve">
+    <value>Students list is required.</value>
+  </data>
+  <data name="StudyPathIdIsInvalid" xml:space="preserve">
+    <value>StudyPathId is invalid</value>
+  </data>
+  <data name="StudyPathIdMustBeNonEmptyGuid" xml:space="preserve">
+    <value>StudyPathId, if provided, must be a non-empty GUID.</value>
+  </data>
+  <data name="StudyPathIdsIsRequired" xml:space="preserve">
+    <value>Study Path Ids Is Required</value>
+  </data>
+  <data name="StudyPathNotFound" xml:space="preserve">
+    <value>Study Path Not Found</value>
+  </data>
+  <data name="SubjectGradeConfigIdsContainEmptyGuid" xml:space="preserve">
+    <value>SubjectGradeConfigIds contains empty Guid.</value>
+  </data>
+  <data name="SubjectGradeConfigNotFound" xml:space="preserve">
+    <value>Subject grade config not found.</value>
+  </data>
+  <data name="SubjectGradeConfigurationMustBeAValidGuidIfProvided" xml:space="preserve">
+    <value>Subject Grade Configuration must be a valid Guid if provided.</value>
+  </data>
+  <data name="SubjectGradeIsRequired" xml:space="preserve">
+    <value>Subject Grade Is Required</value>
+  </data>
+  <data name="SubjectNotFound" xml:space="preserve">
+    <value>Subject Not Found</value>
+  </data>
+  <data name="SubjectsContainInvalidIds" xml:space="preserve">
+    <value>Subjects contain invalid IDs.</value>
+  </data>
+  <data name="SubjectsMustBeUnique" xml:space="preserve">
+    <value>Subjects must be unique.</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="TaskAssigneeChangedSuccessfully" xml:space="preserve">
+    <value>Task assignee changed successfully</value>
+  </data>
+  <data name="TaskConvertedSuccessfully" xml:space="preserve">
+    <value>Task Converted Successfully</value>
+  </data>
+  <data name="TaskExistingBefore" xml:space="preserve">
+    <value>Task already exists.</value>
+  </data>
+  <data name="TaskNotAssignForATeam" xml:space="preserve">
+    <value>Task not assign for a team</value>
+  </data>
+  <data name="TaskNotFound" xml:space="preserve">
+    <value>Task not found</value>
+  </data>
+  <data name="TaskPriorityChangedSuccessfully" xml:space="preserve">
+    <value>Task priority changed successfully</value>
+  </data>
+  <data name="TaskStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>Task status updated successfully</value>
+  </data>
+  <data name="TaskTypeChangedSuccessfully" xml:space="preserve">
+    <value>Task Type Changed Successfully</value>
+  </data>
+  <data name="Teacher assigned successfully." xml:space="preserve">
+    <value>Teacher assigned successfully.</value>
+  </data>
+  <data name="TeacherArchiveFailed" xml:space="preserve">
+    <value>Teacher archive failed.</value>
+  </data>
+  <data name="TeacherArchiveSuccess" xml:space="preserve">
+    <value>Teacher archived successfully.</value>
+  </data>
+  <data name="TeacherAssignedSuccess_NoChanges" xml:space="preserve">
+    <value>Teacher assigned successfully, no changes.</value>
+  </data>
+  <data name="TeacherAssignmentFailed" xml:space="preserve">
+    <value>Teacher Assignment Failed</value>
+  </data>
+  <data name="TeacherDeleteFailed" xml:space="preserve">
+    <value>Teacher Delete Failed</value>
+  </data>
+  <data name="TeacherDeleteSuccess" xml:space="preserve">
+    <value>Teacher Delete Success</value>
+  </data>
+  <data name="TeacherNotFound" xml:space="preserve">
+    <value>Teacher Not Found</value>
+  </data>
+  <data name="TeacherWithThisEmailAlreadyExists" xml:space="preserve">
+    <value>Teacher with this email already exists.</value>
+  </data>
+  <data name="TeacherWithThisNameAlreadyExists" xml:space="preserve">
+    <value>Teacher with this name already exists.</value>
+  </data>
+  <data name="TeamNotFound" xml:space="preserve">
+    <value>Team not found</value>
+  </data>
+  <data name="TermEndDateIsRequired" xml:space="preserve">
+    <value>Term End Date Is Required</value>
+  </data>
+  <data name="TermEndMustBeWithInTheAcademicYear" xml:space="preserve">
+    <value>Term end must be within the academic year</value>
+  </data>
+  <data name="TermIdsIsRequired" xml:space="preserve">
+    <value>Term Ids Is Required</value>
+  </data>
+  <data name="TermNameIsRequired" xml:space="preserve">
+    <value>Term name is required</value>
+  </data>
+  <data name="TermNamesMustBeUnique" xml:space="preserve">
+    <value>Term names must be unique</value>
+  </data>
+  <data name="Termsmustnotoverlap" xml:space="preserve">
+    <value>Terms must not overlap</value>
+  </data>
+  <data name="TermsNotFound" xml:space="preserve">
+    <value>Terms Not Found</value>
+  </data>
+  <data name="TermsRequired" xml:space="preserve">
+    <value>Terms Is Required</value>
+  </data>
+  <data name="TermStartDateIsRequired" xml:space="preserve">
+    <value>Term Start Date Is Required</value>
+  </data>
+  <data name="TermStartMustBeWithInTheAcademicYear" xml:space="preserve">
+    <value>Term start must be within the academic year</value>
+  </data>
+  <data name="TheCodeOfClassMustBeUnique" xml:space="preserve">
+    <value>The Code Of Grade Must Be Unique</value>
+  </data>
+  <data name="TheCodeOfGradeMustBeUnique" xml:space="preserve">
+    <value>The Code Of Grade Must Be Unique</value>
+  </data>
+  <data name="TheHomeroomTeacherIdsofClassesValuemustbelessthanorequalto" xml:space="preserve">
+    <value>The Home Room Teacher Ids of Classes Value must be less than or equal to</value>
+  </data>
+  <data name="TheHomeroomTeacherOfClassesValuemustbegreaterthanorequalto1" xml:space="preserve">
+    <value>The Homeroom Teacher Of Classes Value must be greater than or equal to 1.</value>
+  </data>
+  <data name="TheMaxCapacityOfClassesValuemustbegreaterthanorequalto1" xml:space="preserve">
+    <value>The Max Capacity Of Classes Value must be greater than or equal to 1.</value>
+  </data>
+  <data name="TheMaxNumberOfClassesValueMustBeGreaterThanOrEqualTo1" xml:space="preserve">
+    <value>he Max Number Of Classes Value must be greater than or equal to 1.</value>
+  </data>
+  <data name="TheMaxNumberOfClassesValueMustBeLessThanOrEqualTo" xml:space="preserve">
+    <value>The Max Number Of Classes Value must be less than or equal to</value>
+  </data>
+  <data name="TheNameOfAcademicYearMustBeUnique" xml:space="preserve">
+    <value>The Name Of Academic Year Must Be Unique</value>
+  </data>
+  <data name="TheNameOfClassMustBeUnique" xml:space="preserve">
+    <value>The Name Of Class Must Be Unique</value>
+  </data>
+  <data name="TheNameOfEducationTrackMustBeUnique" xml:space="preserve">
+    <value>The Name Of Education Track Must Be Unique</value>
+  </data>
+  <data name="TheNameOfGradeMustBeUnique" xml:space="preserve">
+    <value>The Name Of Grade Must Be Unique</value>
+  </data>
+  <data name="TheNameOfStudyPathMustBeUnique" xml:space="preserve">
+    <value>The name of study path must be unique.</value>
+  </data>
+  <data name="TheNameOfSubjectMustBeUnique" xml:space="preserve">
+    <value>The Name Of Subject Must Be Unique</value>
+  </data>
+  <data name="Thestudentgradedoesnotmatchtheclassgrade" xml:space="preserve">
+    <value>The student's grade does not match the class grade.</value>
+  </data>
+  <data name="ThisActionNotAllowForUserAndMember" xml:space="preserve">
+    <value>This action not allow for user and member</value>
+  </data>
+  <data name="ThisMemberAlreadyExistInThisTeam" xml:space="preserve">
+    <value>This member already exist in this team</value>
+  </data>
+  <data name="ThisMemberExistBefore" xml:space="preserve">
+    <value>This Member Exist Before</value>
+  </data>
+  <data name="ThisNameExistsBefore" xml:space="preserve">
+    <value>This Name Exists Before</value>
+  </data>
+  <data name="ThisProjectAddedToThisUserBefore" xml:space="preserve">
+    <value>This Project Added To This User Before</value>
+  </data>
+  <data name="ThisProjectExistBefore" xml:space="preserve">
+    <value>This project already exists</value>
+  </data>
+  <data name="ThisProjectExistsBefore" xml:space="preserve">
+    <value>This project already exists</value>
+  </data>
+  <data name="ThisTeamExistInSameProjectBefore" xml:space="preserve">
+    <value>Team already exists in this project </value>
+  </data>
+  <data name="TicketAssigneeChangedSuccessfully" xml:space="preserve">
+    <value>Ticket Assignee Changed Successfully</value>
+  </data>
+  <data name="TicketConvertedTaskBefore" xml:space="preserve">
+    <value>Ticket Converted Task Before</value>
+  </data>
+  <data name="TicketStatusCannotBeChangeToThisStatusOnlyClosedAllowed" xml:space="preserve">
+    <value>Ticket Status Cannot Be Change To This Status Only Closed Allowed</value>
+  </data>
+  <data name="TicketStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>Ticket Status Updated Successfully</value>
+  </data>
+  <data name="TicketWithThisStatusCannotBeConvertedMustBeOpen" xml:space="preserve">
+    <value>Ticket With This Status Cannot Be Converted Must Be Open</value>
+  </data>
+  <data name="TimeLineReportGeneratedSuccessfully" xml:space="preserve">
+    <value>TimeLine report generated successfully</value>
+  </data>
+  <data name="TimerPausedSuccessfully" xml:space="preserve">
+    <value>Timer paused successfully</value>
+  </data>
+  <data name="TimerStartingSuccessfully" xml:space="preserve">
+    <value>Timer starting successfully</value>
+  </data>
+  <data name="TimerStoppedSuccessfully" xml:space="preserve">
+    <value>Timer stopped successfully</value>
+  </data>
+  <data name="TitleCannotExceed300characters" xml:space="preserve">
+    <value>Title Cannot Exceed 300c haracters</value>
+  </data>
+  <data name="TitleIsRequired" xml:space="preserve">
+    <value>Title Is Required</value>
+  </data>
+  <data name="ToAgeIsRequired" xml:space="preserve">
+    <value>To Age Is Required</value>
+  </data>
+  <data name="TokenHasBeenInvalidated" xml:space="preserve">
+    <value>Token has been invalidated</value>
+  </data>
+  <data name="TopicIsRequired" xml:space="preserve">
+    <value>Topic Is Required</value>
+  </data>
+  <data name="TopicNotFound" xml:space="preserve">
+    <value>Topic Not Found</value>
+  </data>
+  <data name="TotalDegreeCannotExceed100" xml:space="preserve">
+    <value>Total degree cannot exceed 100.</value>
+  </data>
+  <data name="TotalDegreeIsRequired" xml:space="preserve">
+    <value>Total Degree Is Required</value>
+  </data>
+  <data name="TypeIdIsRequired" xml:space="preserve">
+    <value>TypeId is required.</value>
+  </data>
+  <data name="TypeIdMustBeAValidGuid" xml:space="preserve">
+    <value>TypeId must be a valid Guid.</value>
+  </data>
+  <data name="TypeIsRequired" xml:space="preserve">
+    <value>Type Is Required</value>
+  </data>
+  <data name="TypeNotFound" xml:space="preserve">
+    <value>Type Not Found</value>
+  </data>
+  <data name="TypeOfEntityIsRequired" xml:space="preserve">
+    <value>Type of entity is required</value>
+  </data>
+  <data name="Unauthorized" xml:space="preserve">
+    <value>Unauthorized</value>
+  </data>
+  <data name="UpdatedSuccessfully" xml:space="preserve">
+    <value>Updated Successfully</value>
+  </data>
+  <data name="UpdateFailed" xml:space="preserve">
+    <value>Update Failed</value>
+  </data>
+  <data name="UploadedSuccessfully" xml:space="preserve">
+    <value>Uploaded Successfully</value>
+  </data>
+  <data name="UseInternationalFormatE164" xml:space="preserve">
+    <value>Use international format (E.164), e.g., +201001234567.</value>
+  </data>
+  <data name="UserActiveStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>User active status updated successfully</value>
+  </data>
+  <data name="UserArchiveStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>User archive status updated successfully</value>
+  </data>
+  <data name="UserAssignToThisRoleBefore" xml:space="preserve">
+    <value>User is already assigned to this role</value>
+  </data>
+  <data name="UserDeletedSuccessfully" xml:space="preserve">
+    <value>User deleted successfully</value>
+  </data>
+  <data name="UserIsAlreadyExistsWithThisEmail" xml:space="preserve">
+    <value>User is already exists with this email</value>
+  </data>
+  <data name="UserIsAlreadyExistsWithThisPhone" xml:space="preserve">
+    <value>User is already exists with this phone number</value>
+  </data>
+  <data name="UserNameInvalidFormat" xml:space="preserve">
+    <value>User Name must have space</value>
+  </data>
+  <data name="UserNotActive" xml:space="preserve">
+    <value>User Not Active</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>User Not Found</value>
+  </data>
+  <data name="UserVerifedSuccessfully" xml:space="preserve">
+    <value>User Verifed Successfully</value>
+  </data>
+  <data name="YearStartMustBeBeforeYearEnd" xml:space="preserve">
+    <value>Year start must be before year end</value>
+  </data>
+  <data name="YouCan'tRestoreThisItem" xml:space="preserve">
+    <value>This item can't be restored (older than 30 days) </value>
+  </data>
+  <data name="ApplicationsAssignedSuccessfully" xml:space="preserve">
+    <value>Applications assigned successfully</value>
+  </data>
+  <data name="Error.Ticket.MustBeOpenToConvert" xml:space="preserve">
+    <value>Conversion is only allowed for tickets with status 'Open'. Please open the ticket first.</value>
+  </data>
+  <data name="Success.Ticket.Converted" xml:space="preserve">
+    <value>Ticket converted successfully.</value>
+  </data>
+  <data name="PHONE_START_PLUS" xml:space="preserve">
+    <value>Phone number must start with '+' followed by the country code</value>
+  </data>
+  <data name="NameMaxLegnth" xml:space="preserve">
+    <value>Name must not exceed 100 characters</value>
+  </data>
+  <data name="CompanyNotFound" xml:space="preserve">
+    <value>Company Not Found</value>
+  </data>
+  <data name="ThePhoneIsAlreadyInUse" xml:space="preserve">
+    <value>The phone is already in use</value>
+  </data>
+  <data name="TheEmailIsAlreadyInUse" xml:space="preserve">
+    <value>The email is already in use</value>
+  </data>
+  <data name="TaskHasNoAssignee" xml:space="preserve">
+    <value>Task has no assignee.</value>
+  </data>
+  <data name="ArchiveFailed" xml:space="preserve">
+    <value>Archive Failed</value>
+  </data>
+  <data name="ArchiveSuccess" xml:space="preserve">
+    <value>Archive Success</value>
+  </data>
+  <data name="StudentIdRequired" xml:space="preserve">
+    <value>Student Id Required</value>
+  </data>
+  <data name="ExamPublishIdRequired" xml:space="preserve">
+    <value>Exam Publish Id Required</value>
+  </data>
+  <data name="ScoreMustBePositive" xml:space="preserve">
+    <value>Score Must Be Positive</value>
+  </data>
+  <data name="QuestionIdRequired" xml:space="preserve">
+    <value>Question Id Required</value>
+  </data>
+  <data name="SubmitTimeRequired" xml:space="preserve">
+    <value>Submit Time Required</value>
+  </data>
+  <data name="ExamTypeNotNull" xml:space="preserve">
+    <value>Exam Type Not Null</value>
+  </data>
+  <data name="ImmediateResultsAndShowResultsDateValidation" xml:space="preserve">
+    <value>If immediate results are enabled, you must provide a results display date and select a subject grade configuration.</value>
+  </data>
+  <data name="InvalidExamType" xml:space="preserve">
+    <value>Invalid Exam Type</value>
+  </data>
+  <data name="IsOfflineAndAssignTypeValidation" xml:space="preserve">
+    <value>If the exam is Offline, you must select an Assign Type (Classes or Groups) and provide at least one class or one group.</value>
+  </data>
+  <data name="IsRelatedToSubjectAndSubjectValidationMessage" xml:space="preserve">
+    <value>If the exam is linked to a subject, you must provide a subject value; and if it is not linked to a subject, the subject value must be left null.</value>
+  </data>
+  <data name="ScopeTypeAndScopeIdValidationMessage" xml:space="preserve">
+    <value>Please enter valid data:
+If the scope type is General, no topic or lesson should be selected.
+If the scope type is Specific Topic, a topic must be selected and lesson must be empty.
+If the scope type is Specific Lesson, a lesson must be selected only.</value>
+  </data>
+  <data name="ScoreCannotExceed100points" xml:space="preserve">
+    <value>Score Cannot Exceed 100 points</value>
+  </data>
+  <data name="ScoreGreaterThanZero" xml:space="preserve">
+    <value>Score Greater Than Zero</value>
+  </data>
+  <data name="TitleNotNull" xml:space="preserve">
+    <value>Title Not Null</value>
+  </data>
+  <data name="QuestionNotFound" xml:space="preserve">
+    <value>Question not found</value>
+  </data>
+  <data name="ParentQuestionNotFound" xml:space="preserve">
+    <value>Parent question not found</value>
+  </data>
+  <data name="QuestionCreated" xml:space="preserve">
+    <value>Question created successfully</value>
+  </data>
+  <data name="SubjectGradeNotFound" xml:space="preserve">
+    <value>Subject/Grade not found</value>
+  </data>
+  <data name="SubjectIsRequired" xml:space="preserve">
+    <value>Subject is required</value>
+  </data>
+  <data name="InvalidQuestionType" xml:space="preserve">
+    <value>Invalid question type</value>
+  </data>
+  <data name="InvalidScopeType" xml:space="preserve">
+    <value>Invalid scope type</value>
+  </data>
+  <data name="ScopeIdIsRequiredWhenScopeTypeIsNotGeneral" xml:space="preserve">
+    <value>Scope  is required when scope type is not general</value>
+  </data>
+  <data name="InvalidDifficultyLevel" xml:space="preserve">
+    <value>Invalid difficulty level</value>
+  </data>
+  <data name="InvalidVisibilitySetting" xml:space="preserve">
+    <value>Invalid visibility setting</value>
+  </data>
+  <data name="DurationMustBePositive" xml:space="preserve">
+    <value>Duration must be positive</value>
+  </data>
+  <data name="QuestionBodyIsRequired" xml:space="preserve">
+    <value>Question body is required</value>
+  </data>
+  <data name="EssayCannotBeToAutoGrading" xml:space="preserve">
+    <value>Essay questions cannot be set to auto-grading</value>
+  </data>
+  <data name="Non-essayQuestionsAtLeastOneAnswer" xml:space="preserve">
+    <value>Non-essay questions must have at least one answer</value>
+  </data>
+  <data name="AtLeastOneAnswerMustAsCorrect" xml:space="preserve">
+    <value>At least one answer must be marked as correct</value>
+  </data>
+  <data name="EssayQuestionsCannotPredefinedAnswers" xml:space="preserve">
+    <value>Essay questions cannot have predefined answers</value>
+  </data>
+  <data name="ExamNotFound" xml:space="preserve">
+    <value>Exam not found</value>
+  </data>
+  <data name="ExamQuestionCreatedSuccessfully" xml:space="preserve">
+    <value>Exam question created successfully</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>Question deleted successfully</value>
+  </data>
+  <data name="QuestionIdMustNotBeEmpty" xml:space="preserve">
+    <value>Question ID must not be empty</value>
+  </data>
+  <data name="QuestionUpdated" xml:space="preserve">
+    <value>Question updated successfully</value>
+  </data>
+  <data name="QuestionCannotExceed5000Characters" xml:space="preserve">
+    <value>Question body cannot exceed 5000 characters</value>
+  </data>
+  <data name="TypeNotNull" xml:space="preserve">
+    <value>Question Type is required</value>
+  </data>
+  <data name="DifficultyNotNull" xml:space="preserve">
+    <value>Difficulty level is required</value>
+  </data>
+  <data name="ExamIdRequired" xml:space="preserve">
+    <value>Exam ID is required</value>
+  </data>
+  <data name="SingleChoiceQuestionMustHaveAtLeastTwoAnswers" xml:space="preserve">
+    <value>Single choice question must have at least two answers</value>
+  </data>
+  <data name="MultipleChoiceQuestionMustHaveAtLeastTwoAnswers" xml:space="preserve">
+    <value>Multiple choice question must have at least two answers</value>
+  </data>
+  <data name="AtLeastOneCorrectAnswerRequired" xml:space="preserve">
+    <value>At least one correct answer is required</value>
+  </data>
+  <data name="AnswerIsCorrectNotNull" xml:space="preserve">
+    <value>Answer 'IsCorrect' status is required</value>
+  </data>
+  <data name="TopicArchiveSuccess" xml:space="preserve">
+    <value>Topic Archive Success</value>
+  </data>
+  <data name="ErrorInCancelExamPublishs" xml:space="preserve">
+    <value>Error In Cancel Exam Publishs</value>
+  </data>
+  <data name="FinishEvalationSuccessfully" xml:space="preserve">
+    <value>Finish Evalation Successfully</value>
+  </data>
+  <data name="CoordinatorIdCannotBeEmpty" xml:space="preserve">
+    <value>Coordinator id cannot be empty.</value>
+  </data>
+  <data name="ExamPublishedSuccessfully" xml:space="preserve">
+    <value>Exam Published Successfully</value>
+  </data>
+</root>

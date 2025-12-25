@@ -1,0 +1,2 @@
+﻿namespace Pearogram.BuildingBlocks.IntegrationEvents.MessageContracts.Settings;
+public record GetConfigurationsValueBySettingKeyResponse(string ConfigurationsValue);

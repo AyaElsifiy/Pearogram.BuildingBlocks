@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos\Communication/CommunicationService.cs \
+obj\Debug\net8.0\Protos\Communication/CommunicationServiceGrpc.cs: Protos/Communication/communication_service.proto

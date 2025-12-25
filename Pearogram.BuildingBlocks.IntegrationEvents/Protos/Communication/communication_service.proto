@@ -1,0 +1,14 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Pearogram.BuildingBlocks.IntegrationEvents.Protos.Communication";
+package communications;
+
+service SaveCommunicationsLogsService {
+  rpc SaveCommunicationsLogs (GrpcRequest) returns (GrpcResponse);
+}
+message GrpcRequest {
+	string message = 1;  // JSON serialized request payload
+}
+message GrpcResponse {
+	string message = 1; // JSON serialized response payload
+}

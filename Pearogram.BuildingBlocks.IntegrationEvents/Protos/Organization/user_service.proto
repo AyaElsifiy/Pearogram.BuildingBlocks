@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "Pearogram.BuildingBlocks.IntegrationEvents.Grpc.Organizations.GetUserName";
+
+package getusername; 
+
+service GRPCUserService {
+	// Get User Name
+	rpc GetUserName (GrpcRequest) returns (GrpcResponse);
+	rpc GetUserRoles (GrpcRequest) returns (GrpcResponse);
+}
+
+
+message GrpcRequest {
+	string message = 1; 
+}
+
+message GrpcResponse {
+	string message = 1;
+}

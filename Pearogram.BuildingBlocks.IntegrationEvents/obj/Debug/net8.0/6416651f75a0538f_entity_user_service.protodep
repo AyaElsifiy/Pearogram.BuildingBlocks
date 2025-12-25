@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos\Organization/EntityUserService.cs \
+obj\Debug\net8.0\Protos\Organization/EntityUserServiceGrpc.cs: Protos/Organization/entity_user_service.proto

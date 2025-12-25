@@ -1,0 +1,37 @@
+﻿    <Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.25.1" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.59.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.59.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="MassTransit" Version="8.5.0" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\Organization\entity_user_service.proto" GrpcServices="Both" />
+	<protobuf Include="Protos\Organization\user_service.proto" GrpcServices="Both" />
+    <Protobuf Include="Protos\Attachment\attachments_service.proto" GrpcServices="Both" />
+    <Protobuf Include="Protos\Communication\communication_service.proto" GrpcServices="Both" />
+
+    <Protobuf Include="Protos\Settings\master_data_service.proto" GrpcServices="Both" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pearogram.BuildingBlocks.Domain\Pearogram.BuildingBlocks.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Protos\Attachment\" />
+  </ItemGroup>
+
+</Project>

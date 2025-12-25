@@ -1,0 +1,2 @@
+obj\Release\net8.0\Protos\Attachment/AttachmentsService.cs \
+obj\Release\net8.0\Protos\Attachment/AttachmentsServiceGrpc.cs: Protos/Attachment/attachments_service.proto

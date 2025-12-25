@@ -1,0 +1,4 @@
+﻿
+namespace Pearogram.BuildingBlocks.IntegrationEvents.MessageContracts.TaskManagement;
+
+public record IsTimeRestrictedMoodResponse(bool isTimeRestrictedMood);

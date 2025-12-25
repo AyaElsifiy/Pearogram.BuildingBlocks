@@ -1,0 +1,1645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcademicYearIdEducationTrackIdOrGradeIdIsInvalid" xml:space="preserve">
+    <value>السنة الأكاديمية أو مسار التعليم أو الصف غير موجود</value>
+  </data>
+  <data name="AcademicYearIdIsRequired" xml:space="preserve">
+    <value>السنة الأكاديمية مطلوبة</value>
+  </data>
+  <data name="AcademicYearIsRequired" xml:space="preserve">
+    <value>يجب ادخال السنة الدراسية</value>
+  </data>
+  <data name="AcademicYearNotFound" xml:space="preserve">
+    <value>السنة الأكاديمية غير موجود</value>
+  </data>
+  <data name="ActionNameUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث الفعل بنجاح</value>
+  </data>
+  <data name="AddedSuccessfully" xml:space="preserve">
+    <value>تم الاضافه بنجاح</value>
+  </data>
+  <data name="AdmissionApplicationNotFound" xml:space="preserve">
+    <value>لم يتم العثور على طلب القبول</value>
+  </data>
+  <data name="AlreadyActivated" xml:space="preserve">
+    <value>تم التفعيل من قبل </value>
+  </data>
+  <data name="AlreadyExistInThisTeam" xml:space="preserve">
+    <value>{0} موجود بالفعل في هذا الفريق</value>
+  </data>
+  <data name="AlreadyExists" xml:space="preserve">
+    <value>تم الاضافه من قبل </value>
+  </data>
+  <data name="An error occurred:" xml:space="preserve">
+    <value>حدث خطأ</value>
+  </data>
+  <data name="AnApplicationWithTheSameNationalIdAlreadyExists" xml:space="preserve">
+    <value>يوجد طلب آخر بنفس الرقم القومي</value>
+  </data>
+  <data name="AnErrorOccured" xml:space="preserve">
+    <value>حدث خطأ</value>
+  </data>
+  <data name="AnErrorOccuredWhileCreateTask" xml:space="preserve">
+    <value>حدث خطأ أثناء إنشاء المهمة</value>
+  </data>
+  <data name="AnErrorOccuredWhileFetchingData" xml:space="preserve">
+    <value>حدث خطأ أثناء جلب البيانات</value>
+  </data>
+  <data name="AnErrorOccuredWhileGetProjectByIdAsync" xml:space="preserve">
+    <value>حدث خطأ أثناء جلب المشروع بواسطة المعرف</value>
+  </data>
+  <data name="AnErrorOccuredWhileGetUserById" xml:space="preserve">
+    <value>حدث خطأ </value>
+  </data>
+  <data name="AnErrorOccurred" xml:space="preserve">
+    <value>حدث خطأ</value>
+  </data>
+  <data name="AnErrorOccurredWhileChangingThePassword" xml:space="preserve">
+    <value>خطأ اثناء تغيير كلمة السر</value>
+  </data>
+  <data name="AnErrorOccurredWhileProcessingYourRequest" xml:space="preserve">
+    <value>حدث خطأ أثناء معالجة طلبك</value>
+  </data>
+  <data name="AnErrorOccurredWhileSendOTP" xml:space="preserve">
+    <value>خطأ اثناء ارسال رمز ال OTP</value>
+  </data>
+  <data name="ApplicationAlreadyApproved" xml:space="preserve">
+    <value>الطلب تم الموافقه عليه من قبل</value>
+  </data>
+  <data name="ApplicationAlreadyRefused" xml:space="preserve">
+    <value>تم رفض الطلب بالفعل</value>
+  </data>
+  <data name="ApplicationApproved" xml:space="preserve">
+    <value>تم الموافقه بنجاح </value>
+  </data>
+  <data name="ApplicationCannotBeApproved" xml:space="preserve">
+    <value>لا يمكن الموافقه علي هذا الطلب </value>
+  </data>
+  <data name="ApplicationCreatedSuccessfully" xml:space="preserve">
+    <value>تم تقديم الطلب بنجاح</value>
+  </data>
+  <data name="ApplicationDuplicatedSuccessfully" xml:space="preserve">
+    <value>تم تكرار الطلب بنجاح</value>
+  </data>
+  <data name="ApplicationIdsIsRequired" xml:space="preserve">
+    <value>الطلب مطلوب</value>
+  </data>
+  <data name="ApplicationNotFound" xml:space="preserve">
+    <value>الطلب غير موجود </value>
+  </data>
+  <data name="Applications assigned successfully" xml:space="preserve">
+    <value>تم تعيين الطلبات بنجاح</value>
+  </data>
+  <data name="ApplicationStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث حالة الطلب بنجاح</value>
+  </data>
+  <data name="ApprovedAndEnrolledSuccessfully" xml:space="preserve">
+    <value>تم اعتماد الطالب وتسجيله بنجاح</value>
+  </data>
+  <data name="ArchiveSuccessfully" xml:space="preserve">
+    <value>تم الارشفه بنجاح </value>
+  </data>
+  <data name="AssessmentSlotConflictReloadAndRetry" xml:space="preserve">
+    <value>تعارض: تم تعديل فترة التقييم بواسطة طلب آخر. يرجى إعادة التحميل والمحاولة مرة أخرى</value>
+  </data>
+  <data name="AssessmentSlotDeletedSuccessfully" xml:space="preserve">
+    <value>تم حذف فترة التقييم بنجاح</value>
+  </data>
+  <data name="AssessmentSlotIdIsRequired" xml:space="preserve">
+    <value>فترة التقييم مطلوب</value>
+  </data>
+  <data name="AssessmentSlotNotFound" xml:space="preserve">
+    <value>لم يتم العثور على فترة التقييم</value>
+  </data>
+  <data name="AssignedSuccessfully" xml:space="preserve">
+    <value>تم التعيين بنجاح </value>
+  </data>
+  <data name="AtLeastOneCoordinatorIsRequired" xml:space="preserve">
+    <value>المنسق لا يمكن أن يكون فارغًا</value>
+  </data>
+  <data name="AtLeastOneCoordinatorMustBeAssigned" xml:space="preserve">
+    <value>يجب تعيين منسق واحد على الأقل</value>
+  </data>
+  <data name="AtLeastOneParentIsRequired" xml:space="preserve">
+    <value>مطلوب إدخال ولي أمر واحد على الأقل</value>
+  </data>
+  <data name="AtLeastOneParentMustBeMarkedAsEmergencyContact" xml:space="preserve">
+    <value>يجب تحديد ولي أمر واحد على الأقل كجهة اتصال للطوارئ</value>
+  </data>
+  <data name="AtLeastOneParentMustBeMarkedAsGuardian" xml:space="preserve">
+    <value>يجب تحديد ولي أمر واحد على الأقل كـ وصي تعليمي أساسي</value>
+  </data>
+  <data name="AtLeastOneStudentMustBeAssigned" xml:space="preserve">
+    <value>يجب تعيين طالب واحد على الأقل</value>
+  </data>
+  <data name="AtLeastOneSubjectIsRequired" xml:space="preserve">
+    <value>يجب اختيار مادة واحدة على الأقل</value>
+  </data>
+  <data name="BodyCannotExceed2000characters" xml:space="preserve">
+    <value>لا يمكن أن يتجاوز المحتوى 2000 حرف</value>
+  </data>
+  <data name="BodyIsRequired" xml:space="preserve">
+    <value>المحتوى مطلوب</value>
+  </data>
+  <data name="BusinessFieldCannotExceed100Characters" xml:space="preserve">
+    <value>لا يمكن أن يتجاوز مجال العمل 100 حرف</value>
+  </data>
+  <data name="BusinessFieldIsRequired" xml:space="preserve">
+    <value>مجال العمل مطلوب</value>
+  </data>
+  <data name="Can'tChangeThisItemRank" xml:space="preserve">
+    <value>لا يمكن تغيير ترتيب هذا العنصر</value>
+  </data>
+  <data name="Can'tConvertModuleName" xml:space="preserve">
+    <value>لا يمكن تحويل هذا النوع</value>
+  </data>
+  <data name="Can'tDeleteThisItem" xml:space="preserve">
+    <value>لا يمكن حذف هذا العنصر</value>
+  </data>
+  <data name="Can'tDeleteThisSystematicItem" xml:space="preserve">
+    <value>لا يمكن حذف هذا العنصر النظامي</value>
+  </data>
+  <data name="Can'tUpdateThisCritialNotification" xml:space="preserve">
+    <value>لا يمكن تحديث هذا الإشعار الحرج</value>
+  </data>
+  <data name="CannotAddGradingSubjectSystemWhenEvaluationMethodIsNotGradingSystemBased" xml:space="preserve">
+    <value>لا يمكن إضافة نظام مواد التقدير عندما لا تكون طريقة التقييم قائمة على نظام الدرجات</value>
+  </data>
+  <data name="CannotaddmoreclassesMaximumallowedclasses" xml:space="preserve">
+    <value>لا يمكن إضافة المزيد من الفصول. الحد الأقصى المسموح به للفصول هو</value>
+  </data>
+  <data name="CannotDeleteEntityWithRelatedData" xml:space="preserve">
+    <value>لا يمكن حذف هذا العنصر لأنه مرتبط ببيانات أخرى.</value>
+  </data>
+  <data name="CannotDeleteThisSystematicItem" xml:space="preserve">
+    <value>لا يمكن مسح هذا العنصر </value>
+  </data>
+  <data name="CantAddStudentWithoutParents" xml:space="preserve">
+    <value>لا يمكن إضافة الطالب بدون أولياء أمور</value>
+  </data>
+  <data name="CantDeleteActiveYear" xml:space="preserve">
+    <value>لا يمكنك حذف سنه مفعله </value>
+  </data>
+  <data name="CantUpdateThisProjectbecauseIsArchive" xml:space="preserve">
+    <value>لا يمكن التعديل علي البروجيكت لان تم ارشفته </value>
+  </data>
+  <data name="CapacityMustBeGreaterThan0" xml:space="preserve">
+    <value>يجب أن تكون اقصي عدد أكبر من 0</value>
+  </data>
+  <data name="ChangePasswordSuccessfully" xml:space="preserve">
+    <value>تم تغيير كلمة المرور بنجاح</value>
+  </data>
+  <data name="ChannelCannotExceed50characters" xml:space="preserve">
+    <value>لا يمكن للقناة أن تتجاوز 50 حرفًا</value>
+  </data>
+  <data name="ChannelIsRequired" xml:space="preserve">
+    <value>القناة مطلوبة</value>
+  </data>
+  <data name="CityIdIsRequired" xml:space="preserve">
+    <value>المدينة مطلوبة</value>
+  </data>
+  <data name="ClassesContainInvalidIds" xml:space="preserve">
+    <value>الفصول تحتوي على قيم غير صالحة</value>
+  </data>
+  <data name="ClassesMustBeUnique" xml:space="preserve">
+    <value>يجب ألا تتكرر الفصول</value>
+  </data>
+  <data name="ClassIdMustBeNonEmptyGuidIfProvided" xml:space="preserve">
+    <value>إذا تم تحديد الفصل، فيجب ألا يكون فارغًا</value>
+  </data>
+  <data name="ClassIdsContainEmptyGuid" xml:space="preserve">
+    <value>الفصول تحتوي على قيمة فارغة</value>
+  </data>
+  <data name="ClassNotFound" xml:space="preserve">
+    <value>الفصل غير موجود</value>
+  </data>
+  <data name="CleanupJobStarted" xml:space="preserve">
+    <value>بدأت مهمة تنظيف السجلات المحذوفة القديمة </value>
+  </data>
+  <data name="Client deleted successfully" xml:space="preserve">
+    <value>تم حذف العميل بنجاح</value>
+  </data>
+  <data name="ClientArchiveStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث حالة أرشفة العميل بنجاح</value>
+  </data>
+  <data name="ClientNotFound" xml:space="preserve">
+    <value>لم يتم العثور على العميل</value>
+  </data>
+  <data name="ColorIsRequired" xml:space="preserve">
+    <value>يجب ادخال اللون</value>
+  </data>
+  <data name="ColorMustNotExceed20Characters" xml:space="preserve">
+    <value>يجب الا بتجاوز اللون 20 حرف</value>
+  </data>
+  <data name="CommentDeletedSuccessfully" xml:space="preserve">
+    <value>تم حذف التعليق بنجاح</value>
+  </data>
+  <data name="CommentNotFound" xml:space="preserve">
+    <value>لم يتم العثور على التعليق</value>
+  </data>
+  <data name="CommentsRetrievedSuccessfully" xml:space="preserve">
+    <value>تم استرجاع التعليقات بنجاح</value>
+  </data>
+  <data name="ConflictDetectedDateRangeOverlapsWithAnExistingRecord" xml:space="preserve">
+    <value>يوجد تضارب في المدة الزمنية مع سجل آخر</value>
+  </data>
+  <data name="CoordinatorNotFoundInThisGroup" xml:space="preserve">
+    <value>لم يتم العثور على المنسق في هذه المجموعة</value>
+  </data>
+  <data name="CoordinatorRemovedSuccessfully" xml:space="preserve">
+    <value>تمت إزالة المنسق بنجاح</value>
+  </data>
+  <data name="CoordinatorsAssignedSuccessfully" xml:space="preserve">
+    <value>تم تعيين المنسقين بنجاح</value>
+  </data>
+  <data name="CoordinatorsContainDuplicates" xml:space="preserve">
+    <value>قائمة المنسقين تحتوي على عناصر مكررة</value>
+  </data>
+  <data name="CoordinatorsListIsRequired" xml:space="preserve">
+    <value>قائمة المنسقين مطلوبة</value>
+  </data>
+  <data name="CreateFailed" xml:space="preserve">
+    <value>حدث خطأ أثناء اعتماد الاضافة </value>
+  </data>
+  <data name="DateCannotBeInThePast" xml:space="preserve">
+    <value>التاريخ لا يمكن أن يكون في الماضي</value>
+  </data>
+  <data name="DateOfBirthCannotBeInTheFuture" xml:space="preserve">
+    <value>تاريخ الميلاد لا يمكن أن يكون في المستقبل</value>
+  </data>
+  <data name="DeceasedStatusMustBeSpecified" xml:space="preserve">
+    <value>يجب تحديد حالة المتوفى</value>
+  </data>
+  <data name="DeletedSuccessfully" xml:space="preserve">
+    <value>تم الحذف بنجاح</value>
+  </data>
+  <data name="DepartmentIsRequired" xml:space="preserve">
+    <value>القسم مطلوب</value>
+  </data>
+  <data name="DependencyTaskUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث المهمة التابعة بنجاح</value>
+  </data>
+  <data name="DescriptionCannotExceed1500characters" xml:space="preserve">
+    <value>الوصف لا يمكن ان يتعدى 1500حرف</value>
+  </data>
+  <data name="DescriptionCannotExceed255characters" xml:space="preserve">
+    <value>الوصف لا يمكن ان يتجاوز 255 حرف</value>
+  </data>
+  <data name="DescriptionCannotExceed3000characters" xml:space="preserve">
+    <value>الوصف لا يمكن ان يتعدى 3000 حرف</value>
+  </data>
+  <data name="DescriptionCannotExceed500Characters" xml:space="preserve">
+    <value>الوصف لا يمكن ان يتجاوز ال 500 حرف</value>
+  </data>
+  <data name="DescriptionMustNotExceed2000Characters" xml:space="preserve">
+    <value>يجب ألا تتجاوز الوصف 2000 حرف</value>
+  </data>
+  <data name="DuplicateCoordinatorIdsAreNotAllowed" xml:space="preserve">
+    <value>غير مسموح بتكرار المنسقين</value>
+  </data>
+  <data name="DuplicateParentTypeNotAllowed" xml:space="preserve">
+    <value>غير مسموح بتكرار نوع ولي الأمر</value>
+  </data>
+  <data name="DuplicateStudentIdsAreNotAllowed" xml:space="preserve">
+    <value>غير مسموح بتكرار الطلاب</value>
+  </data>
+  <data name="EachApplicationMustIncludeAFather" xml:space="preserve">
+    <value>يجب أن يتضمن كل طلب أبًا</value>
+  </data>
+  <data name="EachApplicationMustIncludeAMother" xml:space="preserve">
+    <value>يجب أن يتضمن كل طلب أمًا</value>
+  </data>
+  <data name="EachApplicationMustIncludeOneRelative" xml:space="preserve">
+    <value>يجب أن يحتوي كل طلب على فرد قريب واحد على الأقل</value>
+  </data>
+  <data name="EachStudentMustHaveAtLeastOneRelativeAssigned" xml:space="preserve">
+    <value>يجب أن يكون لكل طالب قريب واحد على الأقل معين</value>
+  </data>
+  <data name="EducationTrackIdMustBeNonEmptyGuid" xml:space="preserve">
+    <value>إذا تم إدخال مسار التعليم، فيجب أن يكون المعرّف GUID غير فارغ</value>
+  </data>
+  <data name="EducationTrackNotFound" xml:space="preserve">
+    <value>مسار التعليم غير موجود</value>
+  </data>
+  <data name="EducationTracksIdsIsRequired" xml:space="preserve">
+    <value>نوع التعليم مطلوب </value>
+  </data>
+  <data name="EducationTracksIdsRequired" xml:space="preserve">
+    <value>يجب ادخال المسار التعليمي</value>
+  </data>
+  <data name="EducationTracksNotFound" xml:space="preserve">
+    <value>المسار التعليمي غير موجود</value>
+  </data>
+  <data name="EmailAlreadyExists" xml:space="preserve">
+    <value>البريد الالكتروني موجود من قبل</value>
+  </data>
+  <data name="EmailCannotExceed00Characters" xml:space="preserve">
+    <value>البريد الإلكتروني لا يجب أن يتجاوز 100 حرف</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>البريد الإلكتروني غير صالح</value>
+  </data>
+  <data name="EmailInvalidFormat" xml:space="preserve">
+    <value>يجب أن يكون البريد الإلكتروني عنوان بريد إلكتروني صالحا.</value>
+  </data>
+  <data name="EmailIsAlreadyExist" xml:space="preserve">
+    <value>البريد الالكتروني موجود من قبل</value>
+  </data>
+  <data name="EmailIsRequired" xml:space="preserve">
+    <value>البريد الإلكتروني مطلوب.</value>
+  </data>
+  <data name="EmailNotFound" xml:space="preserve">
+    <value>البريد الإلكتروني غير موجود</value>
+  </data>
+  <data name="EmailOrPhoneRequiredForAutoAccount" xml:space="preserve">
+    <value>البريد الإلكتروني أو رقم الهاتف مطلوب عند تسجيل الطالب في صف يسمح بإنشاء حساب تلقائيًا.</value>
+  </data>
+  <data name="EndDateIsRequired" xml:space="preserve">
+    <value>تاريخ النهايه مطلوب</value>
+  </data>
+  <data name="EndTimeIsRequired" xml:space="preserve">
+    <value>وقت الانتهاء مطلوب</value>
+  </data>
+  <data name="EndTimeMustBeAfterStartTime" xml:space="preserve">
+    <value>يجب أن يكون وقت الانتهاء بعد وقت البدء</value>
+  </data>
+  <data name="EnrollmentTypeIsRequired" xml:space="preserve">
+    <value>نوع التسجيل مطلوب</value>
+  </data>
+  <data name="entityIdIsRequired" xml:space="preserve">
+    <value>مطلوب إدخال معرّف الكيان</value>
+  </data>
+  <data name="entityTypeIsRequired" xml:space="preserve">
+    <value>نوع الكيان مطلوب</value>
+  </data>
+  <data name="ErorrWhileSavingTheTaskImage" xml:space="preserve">
+    <value>حدث خطأ أثناء حفظ صورة المهمة</value>
+  </data>
+  <data name="Error occurred while deleting Client" xml:space="preserve">
+    <value>حدث خطأ أثناء حذف العميل</value>
+  </data>
+  <data name="ErrorInChangePassword" xml:space="preserve">
+    <value>خطأ في تغيير كلمة المرور</value>
+  </data>
+  <data name="ErrorInDelete" xml:space="preserve">
+    <value>خطأ في الحذف</value>
+  </data>
+  <data name="ErrorInDeleteAttachment" xml:space="preserve">
+    <value>خطأ أثناء حذف المرفق</value>
+  </data>
+  <data name="ErrorInRestore" xml:space="preserve">
+    <value>خطأ أثناء الاستعادة </value>
+  </data>
+  <data name="ErrorInSave" xml:space="preserve">
+    <value>خطأ في الحفظ</value>
+  </data>
+  <data name="ErrorInSaveDocument" xml:space="preserve">
+    <value>خطأ ف الحفظ</value>
+  </data>
+  <data name="ErrorInUpdate" xml:space="preserve">
+    <value>خطأفي التعديل</value>
+  </data>
+  <data name="ErrorInUpdated" xml:space="preserve">
+    <value>خطأ في التحديث</value>
+  </data>
+  <data name="ErrorOccurredWhileDeletingUser" xml:space="preserve">
+    <value>حدث خطأ أثناء حذف المستخدم</value>
+  </data>
+  <data name="ErrorWhileApprovedApplication" xml:space="preserve">
+    <value>حدث خطأ أثناء اعتماد الطلب</value>
+  </data>
+  <data name="ErrorWhileCloneTask" xml:space="preserve">
+    <value>خطأ أثناء استنساخ المهمة</value>
+  </data>
+  <data name="ErrorWhileCreatingUser" xml:space="preserve">
+    <value>خطأ أثناء إنشاء مستخدم</value>
+  </data>
+  <data name="ErrorWhileDeleteTask" xml:space="preserve">
+    <value>حدث خطأ أثناء حذف المهمة</value>
+  </data>
+  <data name="ErrorWhileDeletingMenus" xml:space="preserve">
+    <value>خطأ في حذف القائمة</value>
+  </data>
+  <data name="ErrorWhileFetchingGroupTasksByStatus" xml:space="preserve">
+    <value>حدث خطأ أثناء جلب المهام المجمعة حسب الحالة</value>
+  </data>
+  <data name="ErrorWhileFetchingMembersDDL" xml:space="preserve">
+    <value>خطأ أثناء جلب أعضاء</value>
+  </data>
+  <data name="ErrorWhileFetchingProjectDDL" xml:space="preserve">
+    <value>خطأ في تحميل قائمة المشاريع </value>
+  </data>
+  <data name="ErrorWhileFetchingProjects" xml:space="preserve">
+    <value>خطأ في تحميل المشاريع </value>
+  </data>
+  <data name="ErrorWhileFetchingTeams" xml:space="preserve">
+    <value>خطأ في تحميل الفرق </value>
+  </data>
+  <data name="ErrorWhileFetchingTeamsDDL" xml:space="preserve">
+    <value>خطأ أثناء جلب الفرق</value>
+  </data>
+  <data name="ErrorWhileFetchingWorkLogs" xml:space="preserve">
+    <value>خطأ أثناء جلب سجلات العمل</value>
+  </data>
+  <data name="ErrorWhileGetTaskByID" xml:space="preserve">
+    <value>حدث خطأ أثناء جلب المهمة بواسطة المعرف</value>
+  </data>
+  <data name="ErrorWhileGettingProject" xml:space="preserve">
+    <value>خطأ في تحميل بيانات المشروع </value>
+  </data>
+  <data name="ErrorWhileUpdateTask" xml:space="preserve">
+    <value>حدث خطأ</value>
+  </data>
+  <data name="ErrorWhileVerifyUser" xml:space="preserve">
+    <value>خطأ أثناء التحقق من المستخدم</value>
+  </data>
+  <data name="EstimatedTimeChangedSuccessfully" xml:space="preserve">
+    <value>تم تغيير الوقت المقدر بنجاح</value>
+  </data>
+  <data name="EstimatedTimeNotValid" xml:space="preserve">
+    <value>الوقت المقدر غير صالح</value>
+  </data>
+  <data name="EUserStatusChanged" xml:space="preserve">
+    <value>تم تغيير حالة المستخدم</value>
+  </data>
+  <data name="EvaluationMethodIsRequired" xml:space="preserve">
+    <value>طريقة التقييم مطلوبة</value>
+  </data>
+  <data name="FailedToAssignStudentToClass" xml:space="preserve">
+    <value>فشل في تعيين الطالب إلى الصف</value>
+  </data>
+  <data name="FailedToCreateGroup" xml:space="preserve">
+    <value>حدث خطا اثناء اضافة المجموعة</value>
+  </data>
+  <data name="FailedToDeleteParent" xml:space="preserve">
+    <value>خطأ أثناء حذف ولي الامر</value>
+  </data>
+  <data name="FailedToSaveImage" xml:space="preserve">
+    <value>فشل حفظ الصورة</value>
+  </data>
+  <data name="FailedToSaveStudentImage" xml:space="preserve">
+    <value>فشل حفظ صورة الطالب</value>
+  </data>
+  <data name="FailedToUpdateGroup" xml:space="preserve">
+    <value>حدث خطا اثناء تعديل الجروب</value>
+  </data>
+  <data name="File removed successfully" xml:space="preserve">
+    <value>تم إزالة الملف بنجاح</value>
+  </data>
+  <data name="File uploaded successfully" xml:space="preserve">
+    <value>تم رفع الملف بنجاح</value>
+  </data>
+  <data name="FileNameAlreadyExists" xml:space="preserve">
+    <value>اسم الملف موجود بالفعل</value>
+  </data>
+  <data name="FileNameCannotExceed150characters" xml:space="preserve">
+    <value>اسم للفايل لا يمكن انا يتجاوز 150 حرف</value>
+  </data>
+  <data name="FileNameIsRequired" xml:space="preserve">
+    <value>اسم الملف مطلوب</value>
+  </data>
+  <data name="FileNameIsRequiredWhenImageBase64Given" xml:space="preserve">
+    <value>يجب تحديد اسم الملف عند تقديم الصورة بصيغة Base64</value>
+  </data>
+  <data name="FirstLanguageIdIsRequired" xml:space="preserve">
+    <value>اللغة الأولى مطلوبة</value>
+  </data>
+  <data name="FromAgeIsRequired" xml:space="preserve">
+    <value>من فضلك أدخل العمر من</value>
+  </data>
+  <data name="FullNameCannotBeWhitespace" xml:space="preserve">
+    <value>الاسم الكامل لا يمكن أن يكون فارغًا أو مسافات فقط</value>
+  </data>
+  <data name="FullNameIsRequired" xml:space="preserve">
+    <value>الاسم الكامل مطلوب</value>
+  </data>
+  <data name="GenderIsInvalidOrNotSpecified" xml:space="preserve">
+    <value>النوع غير صحيح أو لم يتم اختياره.</value>
+  </data>
+  <data name="GradeArchiveSuccessfully" xml:space="preserve">
+    <value>تم أرشفة الصف بنجاح</value>
+  </data>
+  <data name="GradeIdIsRequired" xml:space="preserve">
+    <value>الصف الدراسي مطلوب</value>
+  </data>
+  <data name="GradeIdRequired" xml:space="preserve">
+    <value>كود الصف مطلوب </value>
+  </data>
+  <data name="GradeIdsRequired" xml:space="preserve">
+    <value>يجب ادخال الصف الدراسي </value>
+  </data>
+  <data name="GradeNotFound" xml:space="preserve">
+    <value>الصف الدراسي غير موجود</value>
+  </data>
+  <data name="GradeNotFoundEnterValidGrade" xml:space="preserve">
+    <value>لم يتم العثور على الصف، يرجى إدخال صف صحيح</value>
+  </data>
+  <data name="GradesConfigsIsRequired" xml:space="preserve">
+    <value>أعدادات الصفوف للمواد مطلوب </value>
+  </data>
+  <data name="GradingMethodIsRequired" xml:space="preserve">
+    <value>يجب ادخال نوع الدرجات</value>
+  </data>
+  <data name="GroupCreatedSuccessfully" xml:space="preserve">
+    <value>تم إنشاء المجموعة بنجاح</value>
+  </data>
+  <data name="GroupNameAlreadyExists" xml:space="preserve">
+    <value>اسم الجروب موجود من قبل </value>
+  </data>
+  <data name="GroupNameIsRequired" xml:space="preserve">
+    <value>اسم المجموعة مطلوب</value>
+  </data>
+  <data name="GroupNameMustNotExceed200Characters" xml:space="preserve">
+    <value>يجب ألا يتجاوز اسم المجموعة 200 حرف</value>
+  </data>
+  <data name="GroupNotFound" xml:space="preserve">
+    <value>المجموعة غير موجودة</value>
+  </data>
+  <data name="GroupWithTheSameNameAlreadyExists" xml:space="preserve">
+    <value>توجد مجموعة بنفس الاسم بالفعل</value>
+  </data>
+  <data name="GuardianMustHavePickupAuthorization" xml:space="preserve">
+    <value>يجب أن يكون لدى الوصي التعليمي الأساسي تصريح بالاستلام</value>
+  </data>
+  <data name="GuardianStatusMustBeSpecified" xml:space="preserve">
+    <value>يجب تحديد حالة الوصي</value>
+  </data>
+  <data name="HomeAddressMaxLength" xml:space="preserve">
+    <value>عنوان السكن لا يجب أن يتجاوز 300 حرف</value>
+  </data>
+  <data name="HomeroomTeacherIdIsRequired" xml:space="preserve">
+    <value>المعلّم المسؤول عن الفصل مطلوب</value>
+  </data>
+  <data name="IconCannotExceed100Characters" xml:space="preserve">
+    <value>الرمز لا يمكن ان بتجاوز ال 100 حرف</value>
+  </data>
+  <data name="IconIsRequired" xml:space="preserve">
+    <value>الرمز مطلوب</value>
+  </data>
+  <data name="Id is required." xml:space="preserve">
+    <value>الكود مطلوب</value>
+  </data>
+  <data name="IdIsRequired" xml:space="preserve">
+    <value>الكود مطلوب</value>
+  </data>
+  <data name="InvalidChannelType" xml:space="preserve">
+    <value>نوع القناة غير صالح</value>
+  </data>
+  <data name="InvalidClassId" xml:space="preserve">
+    <value>قيمة الفصل غير صحيحة </value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>البريد الإلكتروني غير صالح</value>
+  </data>
+  <data name="InvalidEmailOrPassword" xml:space="preserve">
+    <value>بريد إلكتروني أو كلمة مرور غير صحيحة</value>
+  </data>
+  <data name="InvalidGenderValue" xml:space="preserve">
+    <value>قيمة النوع غير صالحة</value>
+  </data>
+  <data name="InvalidIdFormat" xml:space="preserve">
+    <value>تنسيق المعرف غير صالح</value>
+  </data>
+  <data name="InvalidInput" xml:space="preserve">
+    <value>الإدخال غير صالح</value>
+  </data>
+  <data name="InvalidLanguageCode" xml:space="preserve">
+    <value>رمز لغة غير صالح</value>
+  </data>
+  <data name="InvalidModuleName" xml:space="preserve">
+    <value>اسم الوحدة غير صالح</value>
+  </data>
+  <data name="InvalidOrExpiredOTP" xml:space="preserve">
+    <value>OTP غير صالح أو منتهي</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>كلمة المرور غير صحيحة.</value>
+  </data>
+  <data name="InvalidReligionValue" xml:space="preserve">
+    <value>قيمة الديانة غير صالحة</value>
+  </data>
+  <data name="InvalidRequest" xml:space="preserve">
+    <value>طلب غير صالح</value>
+  </data>
+  <data name="InvalidStatusFormat" xml:space="preserve">
+    <value>تنسيق الحالة غير صالح</value>
+  </data>
+  <data name="InvalidTaskId" xml:space="preserve">
+    <value>رقم تعريف التاسك غير صالح</value>
+  </data>
+  <data name="InvalidTaskStatus" xml:space="preserve">
+    <value>حالة المهمة غير صالحة</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>غير صالح.</value>
+  </data>
+  <data name="InvalidTokenFormat" xml:space="preserve">
+    <value>تنسيق غير صالح.</value>
+  </data>
+  <data name="InvalidUser" xml:space="preserve">
+    <value>مستخدم غير صالح</value>
+  </data>
+  <data name="InvalidUserData" xml:space="preserve">
+    <value>بيانات مستخدم غير صالحة</value>
+  </data>
+  <data name="InvalidUserOldPassword" xml:space="preserve">
+    <value>كلمة مرور المستخدم القديمة غير صحيحة</value>
+  </data>
+  <data name="IsArchiveIsRequired" xml:space="preserve">
+    <value>حقل الأرشفة مطلوب</value>
+  </data>
+  <data name="JobTitleIsRequired" xml:space="preserve">
+    <value>المسمى الوظيفي مطلوب.</value>
+  </data>
+  <data name="JobTitleMaxLength" xml:space="preserve">
+    <value>يجب ألا يتجاوز المسمى الوظيفي 50 حرفا.</value>
+  </data>
+  <data name="LanguageCodeCannotExceed5characters" xml:space="preserve">
+    <value>اللغة لا يمكن أن تتجاوز 5 أحرف</value>
+  </data>
+  <data name="LanguageCodeIsRequired" xml:space="preserve">
+    <value>اللغه مطلوبة</value>
+  </data>
+  <data name="LessonsIsRequired" xml:space="preserve">
+    <value>يجب ادخال الدروس</value>
+  </data>
+  <data name="LetterGradeIsRequired" xml:space="preserve">
+    <value>يجب ادخال الدرجة الحرفية</value>
+  </data>
+  <data name="LetterGradeMustNotExceed5Characters" xml:space="preserve">
+    <value>يجب ألا يتجاوز الدرجة 5 أحرف</value>
+  </data>
+  <data name="LoginFirstMessage" xml:space="preserve">
+    <value>سجل الدخولا اولا</value>
+  </data>
+  <data name="LoginSuccessfully" xml:space="preserve">
+    <value>تسجيل الدخول بنجاح.</value>
+  </data>
+  <data name="LogoutSuccessfully" xml:space="preserve">
+    <value>تسجيل الخروج بنجاح</value>
+  </data>
+  <data name="MaxCapacityIsRequired" xml:space="preserve">
+    <value>الحد الأقصى لعدد الطلاب في الفصل مطلوب</value>
+  </data>
+  <data name="MaxCapacityOfClassesIsRequired" xml:space="preserve">
+    <value>الحد الأقصى لعدد الطلاب في الفصل مطلوب</value>
+  </data>
+  <data name="MaxNumberOfClassesIsRequired" xml:space="preserve">
+    <value>الحد الأقصى لعدد الفصول مطلوب.</value>
+  </data>
+  <data name="MaxPortalAccessParentsExceeded" xml:space="preserve">
+    <value>لا يمكنك اختيار أكثر من {maxPortalAccessCount} من أولياء الأمور الذين لديهم صلاحية الدخول الي الموقع </value>
+  </data>
+  <data name="MenusMainNotFound" xml:space="preserve">
+    <value>القائمة غير موجودة</value>
+  </data>
+  <data name="MenusNotFound" xml:space="preserve">
+    <value>القائمة غير موجودة</value>
+  </data>
+  <data name="MinimumMaxCapacityValid" xml:space="preserve">
+    <value>يجب أن تكون قيمة لحد الأقصى لعدد الطلاب في الفصل أكبر من أو تساوي 1</value>
+  </data>
+  <data name="MinmumMaxNumberOfClassesValid" xml:space="preserve">
+    <value>يجب أن تكون قيمة الحد الأقصى لعدد الفصول أكبر من أو تساوي 1.</value>
+  </data>
+  <data name="ModuleNameCannotExceed100characters" xml:space="preserve">
+    <value>اسم الوحدة لا يمكن أن يتجاوز 100 حرف</value>
+  </data>
+  <data name="ModuleNameIsRequired" xml:space="preserve">
+    <value>اسم الوحدة مطلوب</value>
+  </data>
+  <data name="Name cannot exceed 100 characters" xml:space="preserve">
+    <value>لا يمكن أن يتجاوز الإسم 100 حرف</value>
+  </data>
+  <data name="NameAlreadyExists" xml:space="preserve">
+    <value>الاسم موجود من قبل</value>
+  </data>
+  <data name="NameCannotExceed100characters" xml:space="preserve">
+    <value>الاسم لا يمكن أن يتجاوز 100 حرف</value>
+  </data>
+  <data name="NameCannotExceed150Characters" xml:space="preserve">
+    <value>الاسم لا يمكن ان يتجاوز ال 150 حرف</value>
+  </data>
+  <data name="NameIsRequired" xml:space="preserve">
+    <value>الاسم مطلوب</value>
+  </data>
+  <data name="NameMaxLength" xml:space="preserve">
+    <value>يجب ألا يتجاوز الاسم 100 حرف</value>
+  </data>
+  <data name="NameMustContainFirstAndLastName" xml:space="preserve">
+    <value>الاسم يجب أن يحتوي على الاسم الأول والأخير</value>
+  </data>
+  <data name="NationalIdIsRequired" xml:space="preserve">
+    <value>الرقم القومي مطلوب</value>
+  </data>
+  <data name="NationalIdLength" xml:space="preserve">
+    <value>يجب أن يتكون الرقم القومي من 14 رقمًا</value>
+  </data>
+  <data name="NationalIdNumbersOnly" xml:space="preserve">
+    <value>يجب أن يحتوي الرقم القومي على أرقام فقط</value>
+  </data>
+  <data name="NationalityIdIsRequired" xml:space="preserve">
+    <value>الجنسية مطلوبة</value>
+  </data>
+  <data name="NationalityIsRequired" xml:space="preserve">
+    <value>الجنسية مطلوبة</value>
+  </data>
+  <data name="NoCommentsForThisTask" xml:space="preserve">
+    <value>لا توجد تعليقات لهذه المهمه</value>
+  </data>
+  <data name="NoDefaultOperations" xml:space="preserve">
+    <value>لا توجد عمليات افتراضية </value>
+  </data>
+  <data name="NoLogsFoundForThisTask" xml:space="preserve">
+    <value>لم يتم العثور على سجلات لهذه المهمة</value>
+  </data>
+  <data name="NoMembersAvailableToAssign" xml:space="preserve">
+    <value>لا يوجد اعضاء للتعين</value>
+  </data>
+  <data name="NoNewCoordinatorsToAssign" xml:space="preserve">
+    <value>لا يوجد منسقون جدد للتعيين</value>
+  </data>
+  <data name="NoNewStudentsToAssign" xml:space="preserve">
+    <value>لا يوجد طلاب جدد للتعيين</value>
+  </data>
+  <data name="NoOperationsForRole" xml:space="preserve">
+    <value>لا توجد عمليات لهذا الدور</value>
+  </data>
+  <data name="NoParentsFoundForApplication" xml:space="preserve">
+    <value>لم يتم العثور على أولياء أمور لهذا الطلب</value>
+  </data>
+  <data name="NoParentsFoundForStudent" xml:space="preserve">
+    <value>لم يتم العثور على أولياء أمور للطالب </value>
+  </data>
+  <data name="NoPermission" xml:space="preserve">
+    <value>لا يوجد لديك صلاحية</value>
+  </data>
+  <data name="NoProjectsInThisTeam" xml:space="preserve">
+    <value>لا توجد مشاريع مسندة لهذا الفريق </value>
+  </data>
+  <data name="NoRelativesFoundForApplication" xml:space="preserve">
+    <value>لم يتم العثور على أقارب لهذا الطلب</value>
+  </data>
+  <data name="NoRelativesFoundForStudent" xml:space="preserve">
+    <value>لم يتم العثور على أقارب للطالب</value>
+  </data>
+  <data name="NoTeamsFoundForThisProject" xml:space="preserve">
+    <value>لا توجد فرق مسندة لهذا المشروع </value>
+  </data>
+  <data name="NotesMustBeLessOrEqual1000Chars" xml:space="preserve">
+    <value>يجب أن تكون الملاحظات أقل من أو تساوي 1000 حرف</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>لا يوجد</value>
+  </data>
+  <data name="NotificationsResetSuccessfully" xml:space="preserve">
+    <value>تم اعادة تعيين الاشعارات بنجاح</value>
+  </data>
+  <data name="NoUnassignedTeamsAvailable" xml:space="preserve">
+    <value>لا توجد فرق متاحة للإسناد </value>
+  </data>
+  <data name="NoUnassignedUsersAvailable" xml:space="preserve">
+    <value>لا يوجد مستخدمون متاحون</value>
+  </data>
+  <data name="NoValidUsers" xml:space="preserve">
+    <value>المستخدم غير موجود.</value>
+  </data>
+  <data name="OccupationIdIsRequired" xml:space="preserve">
+    <value>المهنة مطلوبة</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>فشلت العملية</value>
+  </data>
+  <data name="ParentCommentNotFound" xml:space="preserve">
+    <value>م يتم العثور على التعليق الأصلي</value>
+  </data>
+  <data name="Parentdeletedsuccessfully" xml:space="preserve">
+    <value>تم حذف ولي الامر بنجاح</value>
+  </data>
+  <data name="ParentEmailAlreadyExists" xml:space="preserve">
+    <value>البريد الإلكتروني للولي '{0}' موجود بالفعل في موديول المؤسسة</value>
+  </data>
+  <data name="ParentNotFound" xml:space="preserve">
+    <value>ولي الامر غير موجود </value>
+  </data>
+  <data name="ParentPhoneAlreadyExists" xml:space="preserve">
+    <value>رقم هاتف الولي '{0}' موجود بالفعل في موديول المؤسسة.</value>
+  </data>
+  <data name="ParentsWithPortalAccess" xml:space="preserve">
+    <value>أولياء الأمور الذين لديهم صلاحية الدخول إلى الموقع </value>
+  </data>
+  <data name="ParentTaskUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث المهمة الأصل بنجاح</value>
+  </data>
+  <data name="ParentTypeIsInvalidOrNotSpecified" xml:space="preserve">
+    <value>نوع ولي الأمر غير صالح أو غير محدد</value>
+  </data>
+  <data name="PassLimitCannotBeGreaterThanTotalDegree" xml:space="preserve">
+    <value>حد النجاح لا يمكن أن يكون أكبر من الدرجة الكلية</value>
+  </data>
+  <data name="PassLimitIsRequired" xml:space="preserve">
+    <value>حد المرور مطلوب</value>
+  </data>
+  <data name="PasswordChangedSuccessfully" xml:space="preserve">
+    <value>تم تغيير كلمة المرور بنجاح</value>
+  </data>
+  <data name="PasswordIsRequired" xml:space="preserve">
+    <value>كلمة المرور مطلوبة.</value>
+  </data>
+  <data name="PasswordMust6CharactersLong" xml:space="preserve">
+    <value>يجب أن تكون كلمة المرور 6 أحرف على الأقل</value>
+  </data>
+  <data name="PasswordMustContainAtLeastOneDigit" xml:space="preserve">
+    <value>يجب أن تحتوي كلمة المرور على رقم واحد على الأقل (0-9)
+</value>
+  </data>
+  <data name="PasswordMustContainAtLeastOneLowercaseLetter" xml:space="preserve">
+    <value>يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل (a-z)</value>
+  </data>
+  <data name="PasswordMustContainAtLeastOneUppercaseLetter" xml:space="preserve">
+    <value>يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل (A-Z)</value>
+  </data>
+  <data name="PerformanceLevelIsRequired" xml:space="preserve">
+    <value>يجي ادخال مستوى الأداء  </value>
+  </data>
+  <data name="PerformanceLevelMustNotExceed100Characters" xml:space="preserve">
+    <value>يجب ألا يتجاوز مستوى الأداء 100 حرف</value>
+  </data>
+  <data name="PermissionsResetSuccessfully" xml:space="preserve">
+    <value>إعادة تعيين السماح بنجاح</value>
+  </data>
+  <data name="Phone cannot exceed 100 characters" xml:space="preserve">
+    <value>لا يمكن أن يتجاوز الهاتف 15حرف</value>
+  </data>
+  <data name="Phone is required" xml:space="preserve">
+    <value>الهاتف مطلوب</value>
+  </data>
+  <data name="PhoneAlreadyExists" xml:space="preserve">
+    <value>رقم الهاتف مستخدم من قبل</value>
+  </data>
+  <data name="PhoneCannotBeWhitespace" xml:space="preserve">
+    <value>رقم الهاتف لا يمكن أن يكون فارغًا أو مسافات فقط</value>
+  </data>
+  <data name="PhoneCannotExceed20Characters" xml:space="preserve">
+    <value>رقم الهاتف لا يجب أن يتجاوز 20 رقمًا</value>
+  </data>
+  <data name="PhoneInvalidFormat" xml:space="preserve">
+    <value>يجب أن يكون رقم الهاتف رقم هاتف مصري صالح.</value>
+  </data>
+  <data name="PhoneIsAlreadyExist" xml:space="preserve">
+    <value>رقم الهاتف مستخدم من قبل</value>
+  </data>
+  <data name="PhoneIsRequired" xml:space="preserve">
+    <value>رقم الهاتف مطلوب.</value>
+  </data>
+  <data name="PhoneMaxLength" xml:space="preserve">
+    <value>رقم الهاتف لا يجب أن يتجاوز 17 خانة</value>
+  </data>
+  <data name="Pleaseprovidevaliddataforeachlessonsection" xml:space="preserve">
+    <value>يجب إدخال بيانات صحيحة لكل قسم من الدرس</value>
+  </data>
+  <data name="PrimaryLanguageIdIsRequired" xml:space="preserve">
+    <value>اللغة الأساسية مطلوبة</value>
+  </data>
+  <data name="ProjectArchiveStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث حالة ارشفة المشروع</value>
+  </data>
+  <data name="ProjectIsAlreadyArchive" xml:space="preserve">
+    <value>المشروع مؤرشف بالفعل</value>
+  </data>
+  <data name="ProjectNotFound" xml:space="preserve">
+    <value>المشروع غير موجود</value>
+  </data>
+  <data name="QualificationsAreRequired" xml:space="preserve">
+    <value>المؤهلات مطلوبة</value>
+  </data>
+  <data name="QualificationsMaxLength" xml:space="preserve">
+    <value>المؤهلات لا يجب أن تتجاوز 300 حرف</value>
+  </data>
+  <data name="RankIsRequired" xml:space="preserve">
+    <value>يجب ادخال الترتيب</value>
+  </data>
+  <data name="reached" xml:space="preserve">
+    <value>لقد وصلت إلى الحد الأقصى المسموح.</value>
+  </data>
+  <data name="RegionIdIsRequired" xml:space="preserve">
+    <value>المنطقة مطلوبة</value>
+  </data>
+  <data name="RegionIsRequired" xml:space="preserve">
+    <value>المنطقة مطلوبة</value>
+  </data>
+  <data name="RelatedEventNotAllowed" xml:space="preserve">
+    <value>الحدث المرتبط غير مسموح</value>
+  </data>
+  <data name="RelatedEventRequired" xml:space="preserve">
+    <value>الحدث المتعلق مطلوب</value>
+  </data>
+  <data name="RelatedToIsRequired" xml:space="preserve">
+    <value>المتعلق به مطلوب</value>
+  </data>
+  <data name="ReligionIsInvalidOrNotSpecified" xml:space="preserve">
+    <value>يرجى اختيار ديانة صحيحة</value>
+  </data>
+  <data name="ReportGenratedSuccessfully" xml:space="preserve">
+    <value>تم انشاء التقرير بنجاح</value>
+  </data>
+  <data name="RequestDataInvalidOrMissing" xml:space="preserve">
+    <value>بيانات الطلب غير صالحة أو مفقودة.</value>
+  </data>
+  <data name="ResetNotificationsError" xml:space="preserve">
+    <value>خطأ في اعادة تعيين الاشعارات</value>
+  </data>
+  <data name="ResetPermissionsError" xml:space="preserve">
+    <value>خطأ إعادة تعيين الأذونات</value>
+  </data>
+  <data name="RestoreSuccessfully" xml:space="preserve">
+    <value>تمت الاستعادة بنجاح </value>
+  </data>
+  <data name="RoleAlreadyExist" xml:space="preserve">
+    <value>هذا الدور يوجد من قبل </value>
+  </data>
+  <data name="RoleIdIsRequired" xml:space="preserve">
+    <value>يجب ادخال الدور</value>
+  </data>
+  <data name="RoleIsRequired" xml:space="preserve">
+    <value>الدور مطلوب.</value>
+  </data>
+  <data name="RoleNotFound" xml:space="preserve">
+    <value>هذا الدور لا يوجد</value>
+  </data>
+  <data name="SecondLanguageIdMustBeNonEmptyGuid" xml:space="preserve">
+    <value>إذا تم إدخال اللغة الثانية، فيجب أن يكون القيمه غير فارغ</value>
+  </data>
+  <data name="SectionsIsRequired" xml:space="preserve">
+    <value>يجب ادخال السيكشن الخاص بالدرس</value>
+  </data>
+  <data name="SelectionLimitExceeded" xml:space="preserve">
+    <value>لا يمكنك اختيار أكثر من </value>
+  </data>
+  <data name="SendOTPEmailSuccesfully" xml:space="preserve">
+    <value>تم إرسال بريد OTP بنجاح</value>
+  </data>
+  <data name="SlotNameCannotBeWhitespace" xml:space="preserve">
+    <value>لا يمكن أن يكون اسم الفترة فراغًا</value>
+  </data>
+  <data name="SlotNameIsRequired" xml:space="preserve">
+    <value>اسم الفترة مطلوب</value>
+  </data>
+  <data name="SlotNameMustBeLessOrEqual255Chars" xml:space="preserve">
+    <value>يجب أن يكون اسم الفترة أقل من أو يساوي 255 حرفًا</value>
+  </data>
+  <data name="SomeClassesNotFound" xml:space="preserve">
+    <value>بعض الفصول لم يتم العثور عليها</value>
+  </data>
+  <data name="SomeLessonsNotFound" xml:space="preserve">
+    <value>بعض الدروس غير موجوده </value>
+  </data>
+  <data name="SomeSectionsNotFound" xml:space="preserve">
+    <value>بعض السيكشن غير موجود</value>
+  </data>
+  <data name="SomeSubjectGradeConfigsNotFound" xml:space="preserve">
+    <value>بعض إعدادات مواد الصف لم يتم العثور عليها</value>
+  </data>
+  <data name="StartDateIsRequired" xml:space="preserve">
+    <value>تاريخ البدايه مطلوب</value>
+  </data>
+  <data name="StartDateMustBeBeforeEndDate" xml:space="preserve">
+    <value>تاريخ البداية لازم يكون قبل تاريخ النهاية</value>
+  </data>
+  <data name="StartDateMustBeLessThanEndDate" xml:space="preserve">
+    <value>وقت البداية يجب ان يكون قبل وقت النهاية</value>
+  </data>
+  <data name="StartTimeIsRequired" xml:space="preserve">
+    <value>تاريخ البدايه مطلوب</value>
+  </data>
+  <data name="StudentAcademicDataNotFound" xml:space="preserve">
+    <value>بيانات الطالب الاكادميه غير موجوده</value>
+  </data>
+  <data name="StudentAlreadyExists" xml:space="preserve">
+    <value>يوجد طالب بنفس الرقم القومي أو البريد الإلكتروني أو رقم الهاتف</value>
+  </data>
+  <data name="StudentMustBeAtLeast" xml:space="preserve">
+    <value>يجب أن يكون عمر الطالب على الأقل</value>
+  </data>
+  <data name="StudentMustHaveFather" xml:space="preserve">
+    <value>يجب تعيين أب لكل طالب</value>
+  </data>
+  <data name="StudentMustHaveMother" xml:space="preserve">
+    <value>يجب تعيين أم لكل طالب</value>
+  </data>
+  <data name="StudentNotFound" xml:space="preserve">
+    <value>لم يتم العثور على الطالب</value>
+  </data>
+  <data name="StudentNotFoundInTheGroup" xml:space="preserve">
+    <value>لم يتم العثور على الطالب في المجموعة</value>
+  </data>
+  <data name="StudentRemovedFromTheGroupSuccessfully" xml:space="preserve">
+    <value>تمت إزالة الطالب من المجموعة بنجاح</value>
+  </data>
+  <data name="StudentsAssignedSuccessfully" xml:space="preserve">
+    <value>تم تعيين الطلاب بنجاح</value>
+  </data>
+  <data name="StudentsListIsRequired" xml:space="preserve">
+    <value>قائمة الطلاب مطلوبة</value>
+  </data>
+  <data name="StudyPathIdIsInvalid" xml:space="preserve">
+    <value>مسار الدراسة غير موجود</value>
+  </data>
+  <data name="StudyPathIdMustBeNonEmptyGuid" xml:space="preserve">
+    <value>إذا تم إدخال مسار الدراسة، فيجب أن يكون المعرّف GUID غير فارغ</value>
+  </data>
+  <data name="StudyPathIdsIsRequired" xml:space="preserve">
+    <value>مسار التعليم مطلوب</value>
+  </data>
+  <data name="StudyPathNotFound" xml:space="preserve">
+    <value>مسار الدراسة غير موجود</value>
+  </data>
+  <data name="SubjectGradeConfigIdsContainEmptyGuid" xml:space="preserve">
+    <value>إعدادات مواد الصف تحتوي على قيمة فارغة</value>
+  </data>
+  <data name="SubjectGradeConfigNotFound" xml:space="preserve">
+    <value>لم يتم العثور على إعداد المادة للصف</value>
+  </data>
+  <data name="SubjectGradeConfigurationMustBeAValidGuidIfProvided" xml:space="preserve">
+    <value>يجب أن يكون المادة من نوع GUID </value>
+  </data>
+  <data name="SubjectGradeIsRequired" xml:space="preserve">
+    <value>يجب ادخال المادة</value>
+  </data>
+  <data name="SubjectNotFound" xml:space="preserve">
+    <value>الماده غير موجوده </value>
+  </data>
+  <data name="SubjectsContainInvalidIds" xml:space="preserve">
+    <value>المواد تحتوي على قيم غير صالحة</value>
+  </data>
+  <data name="SubjectsMustBeUnique" xml:space="preserve">
+    <value>يجب ألا تتكرر المواد</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>تم بنجاح</value>
+  </data>
+  <data name="TaskAssigneeChangedSuccessfully" xml:space="preserve">
+    <value>تم تغيير المكلف بالمهمة بنجاح</value>
+  </data>
+  <data name="TaskConvertedSuccessfully" xml:space="preserve">
+    <value>تم تحويل الشكوى الى مهمه بنجاح</value>
+  </data>
+  <data name="TaskExistingBefore" xml:space="preserve">
+    <value>المهمة موجودة بالفعل</value>
+  </data>
+  <data name="TaskNotAssignForATeam" xml:space="preserve">
+    <value>هذه المهمه غير مخصصه لهذا فريق  </value>
+  </data>
+  <data name="TaskNotFound" xml:space="preserve">
+    <value>المهمة غير موجودة</value>
+  </data>
+  <data name="TaskPriorityChangedSuccessfully" xml:space="preserve">
+    <value>تم تغيير أولوية المهمة بنجاح</value>
+  </data>
+  <data name="TaskStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث حالة المهمة بنجاح</value>
+  </data>
+  <data name="TaskTypeChangedSuccessfully" xml:space="preserve">
+    <value>تم تحديث نوع المهمه بنجاح</value>
+  </data>
+  <data name="Teacher assigned successfully." xml:space="preserve">
+    <value>تم تعيين المعلم بنجاح</value>
+  </data>
+  <data name="TeacherArchiveFailed" xml:space="preserve">
+    <value>حدث خطا اثناء أرشفة المعلم</value>
+  </data>
+  <data name="TeacherArchiveSuccess" xml:space="preserve">
+    <value>تمت أرشفة المعلم بنجاح</value>
+  </data>
+  <data name="TeacherAssignedSuccess_NoChanges" xml:space="preserve">
+    <value>تم تعيين المعلم بنجاح، دون أي تغييرات</value>
+  </data>
+  <data name="TeacherAssignmentFailed" xml:space="preserve">
+    <value>حدث خطا اثناء تعيين المعلم </value>
+  </data>
+  <data name="TeacherDeleteFailed" xml:space="preserve">
+    <value>حدث خطا اثناء حذف المدرس</value>
+  </data>
+  <data name="TeacherDeleteSuccess" xml:space="preserve">
+    <value>تم حذف المدرس بنجاح </value>
+  </data>
+  <data name="TeacherNotFound" xml:space="preserve">
+    <value>المدرس غير موجود </value>
+  </data>
+  <data name="TeacherWithThisEmailAlreadyExists" xml:space="preserve">
+    <value>يوجد مدرس بهذا البريد الإلكتروني بالفعل</value>
+  </data>
+  <data name="TeacherWithThisNameAlreadyExists" xml:space="preserve">
+    <value>يوجد مدرس بنفس الاسم بالفعل</value>
+  </data>
+  <data name="TeamNotFound" xml:space="preserve">
+    <value>الفريق غير موجود</value>
+  </data>
+  <data name="TermEndDateIsRequired" xml:space="preserve">
+    <value>نهاية الترم مطلوب</value>
+  </data>
+  <data name="TermEndMustBeWithInTheAcademicYear" xml:space="preserve">
+    <value>Term end must be within the academic year</value>
+  </data>
+  <data name="TermIdsIsRequired" xml:space="preserve">
+    <value>الفصول الدراسيه مطلوب </value>
+  </data>
+  <data name="TermNameIsRequired" xml:space="preserve">
+    <value>اسم الترم مطلوب</value>
+  </data>
+  <data name="TermNamesMustBeUnique" xml:space="preserve">
+    <value>يوجد أسماء مكررة للترمات</value>
+  </data>
+  <data name="Termsmustnotoverlap" xml:space="preserve">
+    <value>يجب ألّا تتداخل الفترات الزمنية في الترم .</value>
+  </data>
+  <data name="TermsNotFound" xml:space="preserve">
+    <value>الفصل الدراسي غير موجود </value>
+  </data>
+  <data name="TermsRequired" xml:space="preserve">
+    <value>الترم مطلوب </value>
+  </data>
+  <data name="TermStartDateIsRequired" xml:space="preserve">
+    <value>بداية الترم مطلوب </value>
+  </data>
+  <data name="TermStartMustBeWithInTheAcademicYear" xml:space="preserve">
+    <value>بداية الترم لازم تكون داخل فترة السنة</value>
+  </data>
+  <data name="TheCodeOfClassMustBeUnique" xml:space="preserve">
+    <value>كود الفصل مستخدم من قبل، يرجى اختيار اسم مختلف</value>
+  </data>
+  <data name="TheCodeOfGradeMustBeUnique" xml:space="preserve">
+    <value>كود الصف مستخدم مسبقًا، يرجى إدخال كود مختلف.</value>
+  </data>
+  <data name="TheHomeroomTeacherIdsofClassesValuemustbelessthanorequalto" xml:space="preserve">
+    <value>يجب ان يكون عدد المعلم المسؤل عن الفصل  أقل من أو تساوي</value>
+  </data>
+  <data name="TheHomeroomTeacherOfClassesValuemustbegreaterthanorequalto1" xml:space="preserve">
+    <value>يجب أن تكون قيمة لحد الأقصى المعلّم المسؤول عن الفصل أكبر من أو تساوي 1</value>
+  </data>
+  <data name="TheMaxCapacityOfClassesValuemustbegreaterthanorequalto1" xml:space="preserve">
+    <value>يجب أن تكون قيمة لحد الأقصى لعدد الطلاب في الفصل أكبر من أو تساوي 1</value>
+  </data>
+  <data name="TheMaxNumberOfClassesValueMustBeGreaterThanOrEqualTo1" xml:space="preserve">
+    <value>يجب أن تكون قيمة الحد الأقصى لعدد الفصول أكبر من أو تساوي 1.</value>
+  </data>
+  <data name="TheMaxNumberOfClassesValueMustBeLessThanOrEqualTo" xml:space="preserve">
+    <value>يجب ألا تتجاوز قيمة الحد الأقصى لعدد الفصول العدد المسموح به.</value>
+  </data>
+  <data name="TheNameOfAcademicYearMustBeUnique" xml:space="preserve">
+    <value>اسم السنه موجوده من قبل</value>
+  </data>
+  <data name="TheNameOfClassMustBeUnique" xml:space="preserve">
+    <value>اسم الفصل مستخدم من قبل، يرجى اختيار اسم مختلف</value>
+  </data>
+  <data name="TheNameOfEducationTrackMustBeUnique" xml:space="preserve">
+    <value>لا يمكن تكرار اسم المسار التعليمي، الرجاء اختيار اسم مختلف.</value>
+  </data>
+  <data name="TheNameOfGradeMustBeUnique" xml:space="preserve">
+    <value>هذا الاسم مستخدم لصف دراسي آخر، يرجى تغييره.</value>
+  </data>
+  <data name="TheNameOfStudyPathMustBeUnique" xml:space="preserve">
+    <value>تمت اضافة اسم المسار الدراسي من قبل</value>
+  </data>
+  <data name="TheNameOfSubjectMustBeUnique" xml:space="preserve">
+    <value>اسم الماده تم اضافته من قبل </value>
+  </data>
+  <data name="Thestudentgradedoesnotmatchtheclassgrade" xml:space="preserve">
+    <value>الصف الدراسي للطالب لا يطابق الصف الدراسي للفصل.</value>
+  </data>
+  <data name="ThisActionNotAllowForUserAndMember" xml:space="preserve">
+    <value>هذا الإجراء لا يسمح للمستخدم والعضو</value>
+  </data>
+  <data name="ThisMemberAlreadyExistInThisTeam" xml:space="preserve">
+    <value>هذا العضو موجود في هذا الفريق بالفعل</value>
+  </data>
+  <data name="ThisMemberExistBefore" xml:space="preserve">
+    <value>العضو موجود من قبل</value>
+  </data>
+  <data name="ThisNameExistsBefore" xml:space="preserve">
+    <value>هذا الاسم موجود من قبل</value>
+  </data>
+  <data name="ThisProjectAddedToThisUserBefore" xml:space="preserve">
+    <value>تم اضافة هذا المشروع لهذا المسنخدم من قبل</value>
+  </data>
+  <data name="ThisProjectExistBefore" xml:space="preserve">
+    <value>هذا المشروع موجود بالفعل</value>
+  </data>
+  <data name="ThisProjectExistsBefore" xml:space="preserve">
+    <value>هذا المشروع موجود بالفعل</value>
+  </data>
+  <data name="ThisTeamExistInSameProjectBefore" xml:space="preserve">
+    <value>هذا الفريق موجود علي المشروع من قبل</value>
+  </data>
+  <data name="TicketAssigneeChangedSuccessfully" xml:space="preserve">
+    <value> تم تغيير التعيين بنجاح</value>
+  </data>
+  <data name="TicketConvertedTaskBefore" xml:space="preserve">
+    <value>لقد تم تحويل هذا الطلب الى مهمه من قبل</value>
+  </data>
+  <data name="TicketStatusCannotBeChangeToThisStatusOnlyClosedAllowed" xml:space="preserve">
+    <value>حالة الطلب لا يمكن تغييرها إلى هذه الحالة فقط مغلقة مسموح بها</value>
+  </data>
+  <data name="TicketStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث حالة الشكوى بنجاح</value>
+  </data>
+  <data name="TicketWithThisStatusCannotBeConvertedMustBeOpen" xml:space="preserve">
+    <value>لا يمكن تحويل الطلب بهذه الحالة، يجب أن تكون مفتوحة</value>
+  </data>
+  <data name="TimeLineReportGeneratedSuccessfully" xml:space="preserve">
+    <value>تم إنشاء تقرير الجدول الزمني بنجاح</value>
+  </data>
+  <data name="TimerPausedSuccessfully" xml:space="preserve">
+    <value>تم إيقاف المؤقت بنجاح</value>
+  </data>
+  <data name="TimerStartingSuccessfully" xml:space="preserve">
+    <value>تم بدء المؤقت بنجاح</value>
+  </data>
+  <data name="TimerStoppedSuccessfully" xml:space="preserve">
+    <value>تم إيقاف المؤقت بنجاح</value>
+  </data>
+  <data name="TitleCannotExceed300characters" xml:space="preserve">
+    <value>العنوان لا يمكن أن يتجاوز 300 حرف</value>
+  </data>
+  <data name="TitleIsRequired" xml:space="preserve">
+    <value>العنوان مطلوب</value>
+  </data>
+  <data name="ToAgeIsRequired" xml:space="preserve">
+    <value>من فضلك أدخل العمر الي </value>
+  </data>
+  <data name="TokenHasBeenInvalidated" xml:space="preserve">
+    <value>تم إبطال </value>
+  </data>
+  <data name="TopicIsRequired" xml:space="preserve">
+    <value>الموضوع مطلوب</value>
+  </data>
+  <data name="TopicNotFound" xml:space="preserve">
+    <value>الموضوع ليس موجود</value>
+  </data>
+  <data name="TotalDegreeCannotExceed100" xml:space="preserve">
+    <value>الدرجة الكلية لا يجب أن تكون اكبر من 100</value>
+  </data>
+  <data name="TotalDegreeIsRequired" xml:space="preserve">
+    <value>الدرجة الكلية مطلوبة</value>
+  </data>
+  <data name="TypeIdIsRequired" xml:space="preserve">
+    <value>النوع مطلوب</value>
+  </data>
+  <data name="TypeIdMustBeAValidGuid" xml:space="preserve">
+    <value>يجب أن يكون النوع من نوع GUID</value>
+  </data>
+  <data name="TypeIsRequired" xml:space="preserve">
+    <value>نوع الماده مطلوب </value>
+  </data>
+  <data name="TypeNotFound" xml:space="preserve">
+    <value>لا يوجد هذا النوع</value>
+  </data>
+  <data name="TypeOfEntityIsRequired" xml:space="preserve">
+    <value>حدد النوع</value>
+  </data>
+  <data name="Unauthorized" xml:space="preserve">
+    <value>غير مصرح</value>
+  </data>
+  <data name="UpdatedSuccessfully" xml:space="preserve">
+    <value>تم التحديث بنجاح</value>
+  </data>
+  <data name="UpdateFailed" xml:space="preserve">
+    <value>حدث خطا اثناء التعديل</value>
+  </data>
+  <data name="UploadedSuccessfully" xml:space="preserve">
+    <value>تم الرفع بنجاح</value>
+  </data>
+  <data name="UseInternationalFormatE164" xml:space="preserve">
+    <value>استخدم التنسيق الدولي (‎E.164‎)، مثال: ‎+201001234567‎</value>
+  </data>
+  <data name="UserActiveStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث حالة المستخدم بنجاح</value>
+  </data>
+  <data name="UserArchiveStatusUpdatedSuccessfully" xml:space="preserve">
+    <value>تم تحديث حالة أرشفة المستخدم بنجاح</value>
+  </data>
+  <data name="UserAssignToThisRoleBefore" xml:space="preserve">
+    <value>المستخدم مُعيَّن بالفعل لهذهِ المهمة</value>
+  </data>
+  <data name="UserDeletedSuccessfully" xml:space="preserve">
+    <value>تم حذف المستخدم بنجاح</value>
+  </data>
+  <data name="UserIsAlreadyExistsWithThisEmail" xml:space="preserve">
+    <value>يوجد مستخدم مسجل بالفعل بهذا البريد الإلكتروني</value>
+  </data>
+  <data name="UserIsAlreadyExistsWithThisPhone" xml:space="preserve">
+    <value>يوجد مستخدم مسجل بالفعل بهذا رقم الهاتف</value>
+  </data>
+  <data name="UserNameInvalidFormat" xml:space="preserve">
+    <value>يجب ادخال الاسم صحيح</value>
+  </data>
+  <data name="UserNotActive" xml:space="preserve">
+    <value>المستخدم غير نشط</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>المستخدم غير موجود.</value>
+  </data>
+  <data name="UserVerifedSuccessfully" xml:space="preserve">
+    <value>تم التحقق من المستخدم بنجاح</value>
+  </data>
+  <data name="YearStartMustBeBeforeYearEnd" xml:space="preserve">
+    <value>بداية السنة لازم تكون قبل نهايتها</value>
+  </data>
+  <data name="YouCan'tRestoreThisItem" xml:space="preserve">
+    <value>لا يمكن استعادة هذا العنصر (أقدم من 30 يومًا) </value>
+  </data>
+  <data name="ApplicationsAssignedSuccessfully" xml:space="preserve">
+    <value>تم تعيين الطلبات بنجاح</value>
+  </data>
+  <data name="Error.Ticket.MustBeOpenToConvert" xml:space="preserve">
+    <value>لا يمكن تحويل التذكرة إلا إذا كانت حالتها مفتوحة. يرجى فتح التذكرة أولاً قبل التحويل.</value>
+  </data>
+  <data name="Success.Ticket.Converted" xml:space="preserve">
+    <value>تم تحويل التذكرة بنجاح.</value>
+  </data>
+  <data name="PHONE_START_PLUS" xml:space="preserve">
+    <value>يجب أن يبدأ رقم الهاتف بـ '+' ثم رمز البلد</value>
+  </data>
+  <data name="NameMaxLegnth" xml:space="preserve">
+    <value>يجب ألا يتجاوز الاسم 100 حرف</value>
+  </data>
+  <data name="CompanyNotFound" xml:space="preserve">
+    <value>الشركة غير موجودة</value>
+  </data>
+  <data name="ThePhoneIsAlreadyInUse" xml:space="preserve">
+    <value>رقم الموبايل مستخدم من قبل</value>
+  </data>
+  <data name="TheEmailIsAlreadyInUse" xml:space="preserve">
+    <value>هذا الايميل مستخدم من قبل</value>
+  </data>
+  <data name="TaskHasNoAssignee" xml:space="preserve">
+    <value>المهمة غير مُسندة.</value>
+  </data>
+  <data name="ArchiveFailed" xml:space="preserve">
+    <value>حدث خطأ أثناء التعديل</value>
+  </data>
+  <data name="ArchiveSuccess" xml:space="preserve">
+    <value>تم التعديل بنجاح </value>
+  </data>
+  <data name="StudentIdRequired" xml:space="preserve">
+    <value>يجب ادخال الطالب</value>
+  </data>
+  <data name="ExamPublishIdRequired" xml:space="preserve">
+    <value>يجب ادخال نشر الامتحان</value>
+  </data>
+  <data name="ScoreMustBePositive" xml:space="preserve">
+    <value>المجموع يجب ان يكون موجب</value>
+  </data>
+  <data name="QuestionIdRequired" xml:space="preserve">
+    <value>يجب ادخال السؤال</value>
+  </data>
+  <data name="SubmitTimeRequired" xml:space="preserve">
+    <value>وقت الإرسال مطلوب</value>
+  </data>
+  <data name="ExamTypeNotNull" xml:space="preserve">
+    <value>يجب ادخال نوع الامتحان </value>
+  </data>
+  <data name="ImmediateResultsAndShowResultsDateValidation" xml:space="preserve">
+    <value>إذا تم تفعيل إظهار النتيجة فورًا، يجب تحديد تاريخ عرض النتيجة واختيار إعدادات تقييم المادة.</value>
+  </data>
+  <data name="InvalidExamType" xml:space="preserve">
+    <value>قيمة نوع الامتحان غير صحيحة </value>
+  </data>
+  <data name="IsOfflineAndAssignTypeValidation" xml:space="preserve">
+    <value>إذا كان الامتحان في وضع Offline، يجب اختيار نوع التوزيع (صفوف أو مجموعات) وتحديد صف واحد على الأقل أو مجموعة واحدة على الأقل</value>
+  </data>
+  <data name="IsRelatedToSubjectAndSubjectValidationMessage" xml:space="preserve">
+    <value>إذا كان الامتحان مرتبطًا بمادة فيجب إدخال قيمة المادة، وإذا لم يكن مرتبطًا بمادة فيجب ترك قيمة المادة فارغة.</value>
+  </data>
+  <data name="ScopeTypeAndScopeIdValidationMessage" xml:space="preserve">
+    <value>برجاء إدخال البيانات بشكل صحيح:
+إذا كان نوع النطاق عامًا (General)، يجب عدم اختيار موضوع أو درس.
+إذا كان النطاق خاصًا بموضوع (Specific Topic)، يجب اختيار موضوع فقط بدون درس.
+وإذا كان النطاق خاصًا بدرس (Specific Lesson)، يجب اختيار درس فقط.</value>
+  </data>
+  <data name="ScoreCannotExceed100points" xml:space="preserve">
+    <value>الدرجة لا يجب ان تتخطي ال 100 </value>
+  </data>
+  <data name="ScoreGreaterThanZero" xml:space="preserve">
+    <value>درجة يجب ان تكون اكبر من 0</value>
+  </data>
+  <data name="TitleNotNull" xml:space="preserve">
+    <value>يجب ادخال العنوان</value>
+  </data>
+  <data name="QuestionNotFound" xml:space="preserve">
+    <value>السؤال غير موجود</value>
+  </data>
+  <data name="ParentQuestionNotFound" xml:space="preserve">
+    <value>السؤال الرئيسي غير موجود</value>
+  </data>
+  <data name="QuestionCreated" xml:space="preserve">
+    <value>تم إنشاء السؤال بنجاح</value>
+  </data>
+  <data name="SubjectGradeNotFound" xml:space="preserve">
+    <value>لم يتم العثور على إعدادات المادة/الصف</value>
+  </data>
+  <data name="SubjectIsRequired" xml:space="preserve">
+    <value>المادة مطلوبة</value>
+  </data>
+  <data name="InvalidQuestionType" xml:space="preserve">
+    <value>نوع السؤال غير صحيح</value>
+  </data>
+  <data name="InvalidScopeType" xml:space="preserve">
+    <value>نوع النطاق غير صحيح</value>
+  </data>
+  <data name="ScopeIdIsRequiredWhenScopeTypeIsNotGeneral" xml:space="preserve">
+    <value>النطاق مطلوب عندما لا يكون نوع النطاق عامًا</value>
+  </data>
+  <data name="InvalidDifficultyLevel" xml:space="preserve">
+    <value>مستوى الصعوبة غير صحيح</value>
+  </data>
+  <data name="InvalidVisibilitySetting" xml:space="preserve">
+    <value>إعداد الرؤية غير صحيح</value>
+  </data>
+  <data name="DurationMustBePositive" xml:space="preserve">
+    <value>يجب أن تكون المدة موجبة</value>
+  </data>
+  <data name="QuestionBodyIsRequired" xml:space="preserve">
+    <value>نص السؤال مطلوب</value>
+  </data>
+  <data name="EssayCannotBeToAutoGrading" xml:space="preserve">
+    <value>لا يمكن تصحيح الأسئلة المقالية تلقائيًا</value>
+  </data>
+  <data name="Non-essayQuestionsAtLeastOneAnswer" xml:space="preserve">
+    <value>يجب أن يحتوي السؤال غير المقالي على إجابة واحدة على الأقل</value>
+  </data>
+  <data name="AtLeastOneAnswerMustAsCorrect" xml:space="preserve">
+    <value>يجب تحديد إجابة واحدة على الأقل كإجابة صحيحة</value>
+  </data>
+  <data name="EssayQuestionsCannotPredefinedAnswers" xml:space="preserve">
+    <value>لا يمكن أن تحتوي الأسئلة المقالية على إجابات محددة مسبقًا</value>
+  </data>
+  <data name="ExamNotFound" xml:space="preserve">
+    <value>الاختبار غير موجود</value>
+  </data>
+  <data name="ExamQuestionCreatedSuccessfully" xml:space="preserve">
+    <value>تم إنشاء سؤال الاختبار بنجاح</value>
+  </data>
+  <data name="QuestionDeleted" xml:space="preserve">
+    <value>تم حذف السؤال بنجاح</value>
+  </data>
+  <data name="QuestionIdMustNotBeEmpty" xml:space="preserve">
+    <value>معرف السؤال لا يمكن أن يكون فارغاً</value>
+  </data>
+  <data name="QuestionUpdated" xml:space="preserve">
+    <value>تم تحديث السؤال بنجاح</value>
+  </data>
+  <data name="QuestionCannotExceed5000Characters" xml:space="preserve">
+    <value>لا يمكن أن يتجاوز نص السؤال 5000 حرف</value>
+  </data>
+  <data name="TypeNotNull" xml:space="preserve">
+    <value>نوع السؤال مطلوب</value>
+  </data>
+  <data name="DifficultyNotNull" xml:space="preserve">
+    <value>مستوى الصعوبة مطلوب</value>
+  </data>
+  <data name="ExamIdRequired" xml:space="preserve">
+    <value>معرف الاختبار مطلوب</value>
+  </data>
+  <data name="SingleChoiceQuestionMustHaveAtLeastTwoAnswers" xml:space="preserve">
+    <value>يجب أن يحتوي سؤال الاختيار الفردي على إجابتين على الأقل</value>
+  </data>
+  <data name="MultipleChoiceQuestionMustHaveAtLeastTwoAnswers" xml:space="preserve">
+    <value>يجب أن يحتوي سؤال الاختيار المتعدد على إجابتين على الأقل</value>
+  </data>
+  <data name="AtLeastOneCorrectAnswerRequired" xml:space="preserve">
+    <value>مطلوب إجابة صحيحة واحدة على الأقل</value>
+  </data>
+  <data name="AnswerIsCorrectNotNull" xml:space="preserve">
+    <value>Answer 'IsCorrect' status is required</value>
+  </data>
+  <data name="TopicArchiveSuccess" xml:space="preserve">
+    <value>تم أرشفة الموضوع بنجاح</value>
+  </data>
+  <data name="ErrorInCancelExamPublishs" xml:space="preserve">
+    <value>حدث خطا اثناء الغاء الامتحان </value>
+  </data>
+  <data name="FinishEvalationSuccessfully" xml:space="preserve">
+    <value>تم انتهاء التصحيح بنجاح </value>
+  </data>
+  <data name="ExamPublishedSuccessfully" xml:space="preserve">
+    <value>تم نشر الامتحان بنجاح</value>
+  </data>
+</root>
