@@ -7,3 +7,4 @@ public abstract class AuditDto
     public DateTime? UpdatedAt { get; set; }
     public string? UpdatedBy { get; set; }
 }
+
